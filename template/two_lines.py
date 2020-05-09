@@ -4,7 +4,7 @@ Version:        0.1
 Author:         Marlowe Zhong
 Creation Date:  Friday, May 8th 2020, 6:29:01 pm
 -----
-Last Modified:  Saturday, May 9th 2020, 5:16:50 pm
+Last Modified:  Saturday, May 9th 2020, 7:26:17 pm
 Modified By:    Marlowe Zhong (marlowezhong@gmail.com)
 """
 
@@ -15,6 +15,7 @@ import os
 import requests
 import logging
 import pandas as pd
+import numpy as np
 from bs4 import BeautifulSoup
 from io import StringIO
 from tqdm import tqdm
