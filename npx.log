@@ -1,0 +1,227 @@
+2020-04-20 12:16:16,218 - INFO - Start to download aberdeen.
+2020-04-20 12:16:16,452 - INFO - There are 15 funds in aberdeen.
+2020-04-20 12:16:23,339 - INFO - Obtain 15 funds after searching.
+2020-04-20 12:16:30,123 - INFO - aberdeen downloading completed.
+2020-04-20 12:16:30,125 - INFO - Start to download dodge & cox.
+2020-04-20 12:16:30,345 - INFO - There are 6 funds in dodge & cox.
+2020-04-20 12:16:30,663 - WARNING - Found more than 1 funds after searching DODGE & COX FUNDS
+2020-04-20 12:16:30,901 - WARNING - Found more than 1 funds after searching DODGE & COX FUNDS
+2020-04-20 12:16:31,222 - WARNING - Found more than 1 funds after searching DODGE & COX FUNDS
+2020-04-20 12:16:31,675 - WARNING - Found more than 1 funds after searching DODGE & COX FUNDS
+2020-04-20 12:16:31,988 - WARNING - Found more than 1 funds after searching DODGE & COX FUNDS
+2020-04-20 12:16:32,343 - WARNING - Found more than 1 funds after searching DODGE & COX FUNDS
+2020-04-20 12:16:32,348 - INFO - Obtain 6 funds after searching.
+2020-04-20 12:16:33,983 - INFO - dodge & cox downloading completed.
+2020-04-20 12:16:33,984 - INFO - Start to download forethought.
+2020-04-20 12:16:34,260 - INFO - There are 6 funds in forethought.
+2020-04-20 12:16:34,604 - WARNING - Found more than 1 funds after searching Forethought Variable Insurance Trust
+2020-04-20 12:16:34,941 - WARNING - Found more than 1 funds after searching Forethought Variable Insurance Trust
+2020-04-20 12:16:35,233 - WARNING - Found more than 1 funds after searching Forethought Variable Insurance Trust
+2020-04-20 12:16:35,594 - WARNING - Found more than 1 funds after searching Forethought Variable Insurance Trust
+2020-04-20 12:16:35,878 - WARNING - Found more than 1 funds after searching Forethought Variable Insurance Trust
+2020-04-20 12:16:36,196 - WARNING - Found more than 1 funds after searching Forethought Variable Insurance Trust
+2020-04-20 12:16:36,199 - INFO - Obtain 6 funds after searching.
+2020-04-20 12:16:40,405 - INFO - forethought downloading completed.
+2020-04-20 12:16:40,406 - INFO - Start to download td.
+2020-04-20 12:16:40,652 - INFO - There are 3 funds in td.
+2020-04-20 12:16:41,034 - WARNING - Found more than 1 funds after searching TD Asset Management USA Funds Inc.
+2020-04-20 12:16:41,411 - WARNING - Found more than 1 funds after searching TD Asset Management USA Funds Inc.
+2020-04-20 12:16:41,720 - WARNING - Found more than 1 funds after searching TD Asset Management USA Funds Inc.
+2020-04-20 12:16:41,724 - INFO - Obtain 3 funds after searching.
+2020-04-20 12:16:43,009 - INFO - td downloading completed.
+2020-04-20 12:16:43,011 - INFO - Start to download ivy funds.
+2020-04-20 12:16:43,320 - INFO - There are 3 funds in ivy funds.
+2020-04-20 12:16:44,248 - INFO - Obtain 3 funds after searching.
+2020-04-20 12:16:45,666 - INFO - ivy funds downloading completed.
+2020-04-20 12:16:45,668 - INFO - Start to download principal.
+2020-04-20 12:16:45,988 - INFO - There are 2 funds in principal.
+2020-04-20 12:16:46,811 - INFO - Obtain 2 funds after searching.
+2020-04-20 12:16:47,623 - INFO - principal downloading completed.
+2020-04-20 12:16:47,671 - INFO - Start to download adams.
+2020-04-20 12:16:47,988 - INFO - There are 2 funds in adams.
+2020-04-20 12:16:48,655 - INFO - Obtain 2 funds after searching.
+2020-04-20 12:16:49,888 - INFO - adams downloading completed.
+2020-04-20 12:16:49,890 - INFO - Start to download tcw funds inc.
+2020-04-20 12:16:50,246 - INFO - There are 2 funds in tcw funds inc.
+2020-04-20 12:16:50,762 - INFO - Obtain 2 funds after searching.
+2020-04-20 12:16:51,763 - INFO - tcw funds inc downloading completed.
+2020-04-20 12:16:51,766 - INFO - Start to download financial investors trust.
+2020-04-20 12:16:52,072 - INFO - There are 2 funds in financial investors trust.
+2020-04-20 12:16:52,406 - WARNING - Found more than 1 funds after searching FINANCIAL INVESTORS TRUST
+2020-04-20 12:16:52,721 - WARNING - Found more than 1 funds after searching FINANCIAL INVESTORS TRUST
+2020-04-20 12:16:52,724 - INFO - Obtain 2 funds after searching.
+2020-04-20 12:16:54,486 - INFO - financial investors trust downloading completed.
+2020-04-20 12:16:54,488 - INFO - Start to download american pension investors trust.
+2020-04-20 12:16:54,738 - INFO - There are 2 funds in american pension investors trust.
+2020-04-20 12:16:55,117 - WARNING - Found more than 1 funds after searching AMERICAN PENSION INVESTORS TRUST
+2020-04-20 12:16:55,380 - WARNING - Found more than 1 funds after searching AMERICAN PENSION INVESTORS TRUST
+2020-04-20 12:16:55,384 - INFO - Obtain 2 funds after searching.
+2020-04-20 12:16:56,316 - INFO - american pension investors trust downloading completed.
+2020-04-20 12:16:56,317 - INFO - Start to download brighthouse funds.
+2020-04-20 12:16:56,543 - INFO - There are 2 funds in brighthouse funds.
+2020-04-20 12:16:57,142 - INFO - Obtain 2 funds after searching.
+2020-04-20 12:17:08,878 - INFO - brighthouse funds downloading completed.
+2020-04-20 12:17:08,891 - INFO - Start to download innovator etf.
+2020-04-20 12:17:09,175 - INFO - There are 2 funds in innovator etf.
+2020-04-20 12:17:09,407 - WARNING - Found more than 1 funds after searching Innovator ETFs Trust
+2020-04-20 12:17:09,703 - INFO - Obtain 2 funds after searching.
+2020-04-20 12:17:10,608 - INFO - innovator etf downloading completed.
+2020-04-20 12:17:10,612 - INFO - Start to download timothy plan.
+2020-04-20 12:17:10,875 - INFO - There are 2 funds in timothy plan.
+2020-04-20 12:17:11,124 - WARNING - Found more than 1 funds after searching TIMOTHY PLAN
+2020-04-20 12:17:11,448 - WARNING - Found more than 1 funds after searching TIMOTHY PLAN
+2020-04-20 12:17:11,452 - INFO - Obtain 2 funds after searching.
+2020-04-20 12:17:12,682 - INFO - timothy plan downloading completed.
+2020-04-20 12:17:12,687 - INFO - Start to download fundvantage trust.
+2020-04-20 12:17:12,952 - INFO - There are 1 funds in fundvantage trust.
+2020-04-20 12:17:13,178 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:17:16,978 - INFO - fundvantage trust downloading completed.
+2020-04-20 12:17:16,990 - INFO - Start to download graniteshares.
+2020-04-20 12:17:17,326 - INFO - There are 1 funds in graniteshares.
+2020-04-20 12:17:17,588 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:17:18,209 - INFO - graniteshares downloading completed.
+2020-04-20 12:17:18,211 - INFO - Start to download great west.
+2020-04-20 12:17:18,479 - INFO - There are 1 funds in great west.
+2020-04-20 12:17:18,702 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:17:18,703 - INFO - great west downloading completed.
+2020-04-20 12:17:18,705 - INFO - Start to download cornercap.
+2020-04-20 12:17:18,989 - INFO - There are 1 funds in cornercap.
+2020-04-20 12:17:19,581 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:17:22,063 - INFO - cornercap downloading completed.
+2020-04-20 12:17:22,066 - INFO - Start to download arbitrage fund.
+2020-04-20 12:17:22,363 - INFO - There are 1 funds in arbitrage fund.
+2020-04-20 12:17:22,571 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:17:23,261 - INFO - arbitrage fund downloading completed.
+2020-04-20 12:17:23,263 - INFO - Start to download nushares.
+2020-04-20 12:17:23,539 - INFO - There are 1 funds in nushares.
+2020-04-20 12:17:23,754 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:17:24,351 - INFO - nushares downloading completed.
+2020-04-20 12:17:24,352 - INFO - Start to download arrow.
+2020-04-20 12:17:24,619 - INFO - There are 1 funds in arrow.
+2020-04-20 12:17:24,900 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:17:25,459 - INFO - arrow downloading completed.
+2020-04-20 12:17:25,461 - INFO - Start to download ashmore.
+2020-04-20 12:17:25,723 - INFO - There are 1 funds in ashmore.
+2020-04-20 12:17:26,028 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:17:26,589 - INFO - ashmore downloading completed.
+2020-04-20 12:17:26,591 - INFO - Start to download forward management llc.
+2020-04-20 12:17:26,861 - INFO - There are 1 funds in forward management llc.
+2020-04-20 12:17:27,099 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:17:27,596 - INFO - forward management llc downloading completed.
+2020-04-20 12:17:27,598 - INFO - Start to download wcm.
+2020-04-20 12:17:27,894 - INFO - There are 1 funds in wcm.
+2020-04-20 12:17:28,191 - WARNING - Found more than 1 funds after searching Investment Managers Series Trust
+2020-04-20 12:17:28,195 - INFO - Obtain 36 funds after searching.
+2020-04-20 12:17:43,061 - INFO - wcm downloading completed.
+2020-04-20 12:17:43,063 - INFO - Start to download index funds.
+2020-04-20 12:17:43,326 - INFO - There are 1 funds in index funds.
+2020-04-20 12:17:43,613 - WARNING - Found more than 1 funds after searching Index Funds
+2020-04-20 12:17:43,617 - INFO - Obtain 35 funds after searching.
+2020-04-20 12:18:30,855 - INFO - index funds downloading completed.
+2020-04-20 12:18:30,861 - INFO - Start to download global x management co. llc.
+2020-04-20 12:18:31,114 - INFO - There are 1 funds in global x management co. llc.
+2020-04-20 12:18:31,395 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:18:32,000 - INFO - global x management co. llc downloading completed.
+2020-04-20 12:18:32,002 - INFO - Start to download crawford investment.
+2020-04-20 12:18:32,290 - INFO - There are 1 funds in crawford investment.
+2020-04-20 12:18:32,638 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:18:33,472 - INFO - crawford investment downloading completed.
+2020-04-20 12:18:33,474 - INFO - Start to download csop.
+2020-04-20 12:18:33,765 - INFO - There are 1 funds in csop.
+2020-04-20 12:18:34,032 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:18:37,212 - INFO - csop downloading completed.
+2020-04-20 12:18:37,221 - INFO - Start to download diamond hill capital management.
+2020-04-20 12:18:37,483 - INFO - There are 1 funds in diamond hill capital management.
+2020-04-20 12:18:37,765 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:18:38,193 - INFO - diamond hill capital management downloading completed.
+2020-04-20 12:18:38,195 - INFO - Start to download osi etf.
+2020-04-20 12:18:38,512 - INFO - There are 1 funds in osi etf.
+2020-04-20 12:18:38,760 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:18:39,797 - INFO - osi etf downloading completed.
+2020-04-20 12:18:39,799 - INFO - Start to download the first national bank of omaha (fnb fund advisors).
+2020-04-20 12:18:40,058 - INFO - There are 1 funds in the first national bank of omaha (fnb fund advisors).
+2020-04-20 12:18:40,273 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:18:40,755 - INFO - the first national bank of omaha (fnb fund advisors) downloading completed.
+2020-04-20 12:18:40,757 - INFO - Start to download pacific global.
+2020-04-20 12:18:41,031 - INFO - There are 1 funds in pacific global.
+2020-04-20 12:18:41,382 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:18:41,966 - INFO - pacific global downloading completed.
+2020-04-20 12:18:41,968 - INFO - Start to download carillon.
+2020-04-20 12:18:42,225 - INFO - There are 1 funds in carillon.
+2020-04-20 12:18:42,503 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:18:43,268 - INFO - carillon downloading completed.
+2020-04-20 12:18:43,271 - INFO - Start to download ultimus.
+2020-04-20 12:18:43,529 - INFO - There are 1 funds in ultimus.
+2020-04-20 12:18:43,771 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:18:44,330 - INFO - ultimus downloading completed.
+2020-04-20 12:18:44,332 - INFO - Start to download advisory research.
+2020-04-20 12:18:44,697 - INFO - There are 1 funds in advisory research.
+2020-04-20 12:18:45,052 - WARNING - Found more than 1 funds after searching Investment Managers Series Trust
+2020-04-20 12:18:45,056 - INFO - Obtain 36 funds after searching.
+2020-04-20 12:18:48,012 - INFO - advisory research downloading completed.
+2020-04-20 12:18:48,013 - INFO - Start to download cloud capital llc.
+2020-04-20 12:18:48,343 - INFO - There are 1 funds in cloud capital llc.
+2020-04-20 12:18:48,599 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:18:49,072 - INFO - cloud capital llc downloading completed.
+2020-04-20 12:18:49,073 - INFO - Start to download segall bryant.
+2020-04-20 12:18:49,308 - INFO - There are 1 funds in segall bryant.
+2020-04-20 12:18:49,552 - WARNING - Found more than 1 funds after searching Investment Managers Series Trust
+2020-04-20 12:18:49,559 - INFO - Obtain 36 funds after searching.
+2020-04-20 12:18:49,592 - INFO - segall bryant downloading completed.
+2020-04-20 12:18:49,593 - INFO - Start to download baillie gifford.
+2020-04-20 12:18:49,884 - INFO - There are 1 funds in baillie gifford.
+2020-04-20 12:18:50,706 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:18:51,400 - INFO - baillie gifford downloading completed.
+2020-04-20 12:18:51,402 - INFO - Start to download advisorshares.
+2020-04-20 12:18:51,677 - INFO - There are 1 funds in advisorshares.
+2020-04-20 12:18:51,909 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:18:52,533 - INFO - advisorshares downloading completed.
+2020-04-20 12:18:52,535 - INFO - Start to download madison am.
+2020-04-20 12:18:52,787 - INFO - There are 1 funds in madison am.
+2020-04-20 12:18:53,018 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:18:53,760 - INFO - madison am downloading completed.
+2020-04-20 12:18:53,762 - INFO - Start to download cm advisers family of funds.
+2020-04-20 12:18:54,051 - INFO - There are 1 funds in cm advisers family of funds.
+2020-04-20 12:18:54,344 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:18:54,345 - INFO - cm advisers family of funds downloading completed.
+2020-04-20 12:18:54,346 - INFO - Start to download manor.
+2020-04-20 12:18:54,609 - INFO - There are 1 funds in manor.
+2020-04-20 12:18:54,909 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:18:57,650 - INFO - manor downloading completed.
+2020-04-20 12:18:57,654 - INFO - Start to download tweedy browne.
+2020-04-20 12:18:57,911 - INFO - There are 1 funds in tweedy browne.
+2020-04-20 12:18:58,238 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:18:58,714 - INFO - tweedy browne downloading completed.
+2020-04-20 12:18:58,716 - INFO - Start to download kornitzer capital management, inc..
+2020-04-20 12:18:58,999 - INFO - There are 1 funds in kornitzer capital management, inc..
+2020-04-20 12:18:59,215 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:18:59,855 - INFO - kornitzer capital management, inc. downloading completed.
+2020-04-20 12:18:59,856 - INFO - Start to download ultra series.
+2020-04-20 12:19:00,135 - INFO - There are 1 funds in ultra series.
+2020-04-20 12:19:00,441 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:19:01,061 - INFO - ultra series downloading completed.
+2020-04-20 12:19:01,062 - INFO - Start to download kp funds.
+2020-04-20 12:19:01,305 - INFO - There are 1 funds in kp funds.
+2020-04-20 12:19:01,536 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:19:02,043 - INFO - kp funds downloading completed.
+2020-04-20 12:19:02,045 - INFO - Start to download litman gregory fund advisors llc.
+2020-04-20 12:19:02,314 - INFO - There are 1 funds in litman gregory fund advisors llc.
+2020-04-20 12:19:02,567 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:19:03,184 - INFO - litman gregory fund advisors llc downloading completed.
+2020-04-20 12:19:03,186 - INFO - Start to download vericimetry advisors llc.
+2020-04-20 12:19:03,463 - INFO - There are 1 funds in vericimetry advisors llc.
+2020-04-20 12:19:03,661 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:19:04,076 - INFO - vericimetry advisors llc downloading completed.
+2020-04-20 12:19:04,079 - INFO - Start to download himco.
+2020-04-20 12:19:04,355 - INFO - There are 1 funds in himco.
+2020-04-20 12:19:04,752 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:19:07,784 - INFO - himco downloading completed.
+2020-04-20 12:19:07,792 - INFO - Start to download 360 funds.
+2020-04-20 12:19:08,046 - INFO - There are 1 funds in 360 funds.
+2020-04-20 12:19:08,335 - WARNING - Found more than 1 funds after searching 360 Funds
+2020-04-20 12:19:08,338 - INFO - Obtain 12 funds after searching.
+2020-04-20 12:19:12,218 - INFO - 360 funds downloading completed.
+2020-04-20 12:19:12,219 - INFO - Start to download icon advisers, inc..
+2020-04-20 12:19:12,451 - INFO - There are 1 funds in icon advisers, inc..
+2020-04-20 12:19:12,652 - INFO - Obtain 1 funds after searching.
+2020-04-20 12:19:13,862 - INFO - icon advisers, inc. downloading completed.

@@ -1,0 +1,103 @@
+2020-05-08 13:10:19,103 - INFO - Start to download royce.
+2020-05-08 13:10:19,567 - INFO - There are 5 funds in royce.
+2020-05-08 13:10:21,247 - INFO - Obtain 5 funds after searching.
+2020-05-08 13:10:21,261 - INFO - royce downloading completed.
+2020-05-08 13:10:21,284 - INFO - Start to parse 0001006387-18-000009.txt.
+2020-05-08 13:10:21,327 - INFO - There are 2 sub-funds in this file.
+2020-05-08 13:10:22,863 - INFO - Start to parse 0000709364-18-000021.txt.
+2020-05-08 13:10:23,235 - INFO - There are 17 sub-funds in this file.
+2020-05-08 13:10:34,684 - INFO - Start to parse 0001514490-18-000007.txt.
+2020-05-08 13:10:34,765 - INFO - There are 1 sub-funds in this file.
+2020-05-08 13:10:36,676 - INFO - Start to parse 0000912147-18-000011.txt.
+2020-05-08 13:10:36,739 - INFO - There are 1 sub-funds in this file.
+2020-05-08 13:10:38,748 - INFO - Start to parse 0000804116-18-000011.txt.
+2020-05-08 13:10:38,834 - INFO - There are 1 sub-funds in this file.
+2020-05-08 13:10:43,405 - INFO - Results shape (33900, 15)
+2020-05-08 13:10:43,489 - INFO - Started to insert into database.
+2020-05-08 13:10:48,174 - INFO - Insert into vote_record successfully.
+2020-05-08 13:10:48,178 - INFO - Start to download van eck.
+2020-05-08 13:10:48,658 - INFO - There are 3 funds in van eck.
+2020-05-08 13:10:49,475 - INFO - Obtain 3 funds after searching.
+2020-05-08 13:10:49,485 - INFO - van eck downloading completed.
+2020-05-08 13:10:49,511 - INFO - Start to parse 0001214659-18-005801.txt.
+2020-05-08 13:10:49,579 - INFO - There are 8 sub-funds in this file.
+2020-05-08 13:10:51,211 - INFO - Start to parse 0001214659-18-005803.txt.
+2020-05-08 13:10:51,917 - INFO - There are 61 sub-funds in this file.
+2020-05-08 13:11:11,276 - INFO - Start to parse 0001214659-18-005802.txt.
+2020-05-08 13:11:11,334 - INFO - There are 5 sub-funds in this file.
+2020-05-08 13:11:16,378 - INFO - Results shape (43852, 16)
+2020-05-08 13:11:16,478 - INFO - Started to insert into database.
+2020-05-08 13:11:22,329 - INFO - Insert into vote_record successfully.
+2020-05-08 13:11:22,344 - INFO - Start to download pax world management llc.
+2020-05-08 13:11:22,808 - INFO - There are 2 funds in pax world management llc.
+2020-05-08 13:11:23,502 - INFO - Obtain 2 funds after searching.
+2020-05-08 13:11:23,512 - INFO - pax world management llc downloading completed.
+2020-05-08 13:11:23,536 - INFO - Start to parse 0001598735-18-000008.txt.
+2020-05-08 13:11:23,739 - INFO - There are 11 sub-funds in this file.
+2020-05-08 13:11:28,324 - INFO - Start to parse 0001598735-18-000009.txt.
+2020-05-08 13:11:28,437 - INFO - There are 1 sub-funds in this file.
+2020-05-08 13:11:31,250 - INFO - Results shape (19353, 15)
+2020-05-08 13:11:31,291 - INFO - Started to insert into database.
+2020-05-08 13:11:33,863 - INFO - Insert into vote_record successfully.
+2020-05-08 13:11:33,866 - INFO - Start to download ohio national fund inc.
+2020-05-08 13:11:34,332 - INFO - There are 1 funds in ohio national fund inc.
+2020-05-08 13:11:34,649 - INFO - Obtain 1 funds after searching.
+2020-05-08 13:11:34,655 - INFO - ohio national fund inc downloading completed.
+2020-05-08 13:11:34,699 - INFO - Start to parse 0001193125-18-258673.txt.
+2020-05-08 13:11:35,385 - INFO - There are 18 sub-funds in this file.
+2020-05-08 13:11:46,917 - INFO - Results shape (24237, 15)
+2020-05-08 13:11:46,962 - INFO - Started to insert into database.
+2020-05-08 13:11:50,202 - INFO - Insert into vote_record successfully.
+2020-05-08 13:11:50,205 - INFO - Start to download hartford.
+2020-05-08 13:11:50,668 - INFO - There are 7 funds in hartford.
+2020-05-08 13:11:53,387 - INFO - Obtain 7 funds after searching.
+2020-05-08 13:11:53,404 - INFO - hartford downloading completed.
+2020-05-08 13:11:53,417 - INFO - Start to parse 0001144204-18-046946.txt.
+2020-05-08 13:11:53,425 - INFO - There are 6 sub-funds in this file.
+2020-05-08 13:11:53,440 - INFO - Start to parse 0001144204-18-046934.txt.
+2020-05-08 13:11:53,455 - INFO - There are 1 sub-funds in this file.
+2020-05-08 13:11:53,817 - INFO - Start to parse 0001144204-18-046945.txt.
+2020-05-08 13:11:53,822 - INFO - There are 1 sub-funds in this file.
+2020-05-08 13:11:53,841 - INFO - Start to parse 0001144204-18-046943.txt.
+2020-05-08 13:11:53,960 - INFO - There are 4 sub-funds in this file.
+2020-05-08 13:11:57,413 - INFO - Start to parse 0001144204-18-046939.txt.
+2020-05-08 13:11:57,765 - INFO - There are 14 sub-funds in this file.
+2020-05-08 13:12:00,434 - INFO - Start to parse 0001144204-18-046936.txt.
+2020-05-08 13:12:01,590 - INFO - There are 44 sub-funds in this file.
+2020-05-08 13:12:28,706 - INFO - Start to parse 0001144204-18-046940.txt.
+2020-05-08 13:12:28,996 - INFO - There are 15 sub-funds in this file.
+2020-05-08 13:12:40,286 - INFO - Results shape (93963, 15)
+2020-05-08 13:12:40,491 - INFO - Started to insert into database.
+2020-05-08 13:12:53,006 - INFO - Insert into vote_record successfully.
+2020-05-08 13:12:53,024 - INFO - Start to download schwab.
+2020-05-08 13:12:53,513 - INFO - There are 6 funds in schwab.
+2020-05-08 13:12:54,958 - INFO - Obtain 6 funds after searching.
+2020-05-08 13:12:54,976 - INFO - schwab downloading completed.
+2020-05-08 13:12:54,996 - INFO - Start to parse 0001193125-18-262106.txt.
+2020-05-08 13:12:55,012 - INFO - There are 18 sub-funds in this file.
+2020-05-08 13:12:55,237 - INFO - Start to parse 0001193125-18-262105.txt.
+2020-05-08 13:12:55,286 - INFO - There are 3 sub-funds in this file.
+2020-05-08 13:12:56,198 - INFO - Start to parse 0001193125-18-262100.txt.
+2020-05-08 13:12:56,313 - INFO - There are 1 sub-funds in this file.
+2020-05-08 13:12:59,005 - INFO - Start to parse 0001193125-18-262111.txt.
+2020-05-08 13:13:01,874 - INFO - There are 32 sub-funds in this file.
+2020-05-08 13:14:21,412 - INFO - Start to parse 0001193125-18-262109.txt.
+2020-05-08 13:14:21,636 - INFO - There are 10 sub-funds in this file.
+2020-05-08 13:14:27,643 - INFO - Start to parse 0001193125-18-262114.txt.
+2020-05-08 13:14:30,912 - INFO - There are 18 sub-funds in this file.
+2020-05-08 13:16:23,501 - INFO - Results shape (406684, 15)
+2020-05-08 13:16:24,823 - INFO - Started to insert into database.
+2020-05-08 13:17:18,796 - INFO - Insert into vote_record successfully.
+2020-05-08 13:17:18,828 - INFO - Start to download transamerica.
+2020-05-08 13:17:19,334 - INFO - There are 3 funds in transamerica.
+2020-05-08 13:17:20,101 - INFO - Obtain 3 funds after searching.
+2020-05-08 13:17:20,110 - INFO - transamerica downloading completed.
+2020-05-08 13:17:20,151 - INFO - Start to parse 0001193125-18-263271.txt.
+2020-05-08 13:17:20,918 - INFO - There are 4 sub-funds in this file.
+2020-05-08 13:17:32,978 - INFO - Start to parse 0001193125-18-263198.txt.
+2020-05-08 13:17:33,763 - INFO - There are 46 sub-funds in this file.
+2020-05-08 13:17:49,268 - INFO - Start to parse 0001193125-18-263173.txt.
+2020-05-08 13:17:50,706 - INFO - There are 34 sub-funds in this file.
+2020-05-08 13:18:27,150 - INFO - Results shape (140189, 15)
+2020-05-08 13:18:27,619 - INFO - Started to insert into database.
+2020-05-08 13:18:46,208 - INFO - Insert into vote_record successfully.

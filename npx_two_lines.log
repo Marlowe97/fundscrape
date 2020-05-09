@@ -1,0 +1,842 @@
+2020-05-08 10:00:49,379 - INFO - Start to download calamos advisors llc.
+2020-05-08 10:00:49,846 - INFO - There are 8 funds in calamos advisors llc.
+2020-05-08 10:00:52,403 - INFO - Obtain 8 funds after searching.
+2020-05-08 10:00:52,420 - INFO - calamos advisors llc downloading completed.
+2020-05-08 10:00:52,423 - INFO - Start to parse 0001438934-18-000460.txt.
+2020-05-08 10:00:52,548 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:00:53,276 - INFO - Start to parse 0001438934-18-000464.txt.
+2020-05-08 10:00:53,281 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:00:53,316 - INFO - Start to parse 0001438934-18-000462.txt.
+2020-05-08 10:00:53,320 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:00:53,355 - INFO - Start to parse 0001438934-18-000472.txt.
+2020-05-08 10:00:53,358 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:00:53,374 - INFO - Start to parse 0001438934-18-000470.txt.
+2020-05-08 10:00:53,442 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:00:53,949 - INFO - Start to parse 0001438934-18-000468.txt.
+2020-05-08 10:00:53,993 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:00:54,325 - INFO - Start to parse 0001438934-18-000458.txt.
+2020-05-08 10:00:55,038 - INFO - There are 20 sub-funds in this file.
+2020-05-08 10:01:02,371 - INFO - Start to parse 0001438934-18-000466.txt.
+2020-05-08 10:01:02,436 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:01:03,979 - INFO - Results shape (25261, 11)
+2020-05-08 10:01:03,986 - INFO - Started to insert into database.
+2020-05-08 10:01:07,352 - INFO - Insert into vote_record successfully.
+2020-05-08 10:01:07,354 - INFO - Start to download value line.
+2020-05-08 10:01:07,831 - INFO - There are 8 funds in value line.
+2020-05-08 10:01:10,587 - INFO - Obtain 8 funds after searching.
+2020-05-08 10:01:10,595 - INFO - value line downloading completed.
+2020-05-08 10:01:10,596 - INFO - Start to parse 0001438934-18-000350.txt.
+2020-05-08 10:01:10,634 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:01:11,123 - INFO - Start to parse 0001438934-18-000354.txt.
+2020-05-08 10:01:11,168 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:01:11,557 - INFO - Start to parse 0001438934-18-000357.txt.
+2020-05-08 10:01:11,577 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:01:11,872 - INFO - Start to parse 0001438934-18-000369.txt.
+2020-05-08 10:01:11,897 - INFO - There are 2 sub-funds in this file.
+2020-05-08 10:01:12,313 - INFO - Start to parse 0001438934-18-000371.txt.
+2020-05-08 10:01:12,325 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:01:12,494 - INFO - Start to parse 0001438934-18-000375.txt.
+2020-05-08 10:01:12,504 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:01:12,638 - INFO - Start to parse 0001438934-18-000377.txt.
+2020-05-08 10:01:12,660 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:01:13,013 - INFO - Start to parse 0001438934-18-000381.txt.
+2020-05-08 10:01:13,064 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:01:13,927 - INFO - Results shape (4587, 11)
+2020-05-08 10:01:13,932 - INFO - Started to insert into database.
+2020-05-08 10:01:14,557 - INFO - Insert into vote_record successfully.
+2020-05-08 10:01:14,558 - INFO - Start to download natixis global asset management.
+2020-05-08 10:01:15,030 - INFO - There are 4 funds in natixis global asset management.
+2020-05-08 10:01:15,909 - INFO - Obtain 4 funds after searching.
+2020-05-08 10:01:15,914 - INFO - natixis global asset management downloading completed.
+2020-05-08 10:01:15,915 - INFO - Start to parse 0001438934-18-000295.txt.
+2020-05-08 10:01:15,992 - INFO - There are 2 sub-funds in this file.
+2020-05-08 10:01:16,520 - INFO - Start to parse 0001438934-18-000285.txt.
+2020-05-08 10:01:16,758 - INFO - There are 8 sub-funds in this file.
+2020-05-08 10:01:18,938 - INFO - Start to parse 0001438934-18-000283.txt.
+2020-05-08 10:01:19,154 - INFO - There are 13 sub-funds in this file.
+2020-05-08 10:01:21,379 - INFO - Start to parse 0001438934-18-000291.txt.
+2020-05-08 10:01:22,308 - INFO - There are 11 sub-funds in this file.
+2020-05-08 10:01:35,110 - INFO - Results shape (42003, 11)
+2020-05-08 10:01:35,126 - INFO - Started to insert into database.
+2020-05-08 10:01:40,691 - INFO - Insert into vote_record successfully.
+2020-05-08 10:01:40,695 - INFO - Start to download touchstone.
+2020-05-08 10:01:41,151 - INFO - There are 4 funds in touchstone.
+2020-05-08 10:01:42,277 - INFO - Obtain 4 funds after searching.
+2020-05-08 10:01:42,282 - INFO - touchstone downloading completed.
+2020-05-08 10:01:42,284 - INFO - Start to parse 0001144204-18-046450.txt.
+2020-05-08 10:01:42,584 - INFO - There are 39 sub-funds in this file.
+2020-05-08 10:01:44,389 - INFO - Start to parse 0001144204-18-046469.txt.
+2020-05-08 10:01:44,404 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:01:44,525 - INFO - Start to parse 0001144204-18-046464.txt.
+2020-05-08 10:01:44,678 - INFO - There are 75 sub-funds in this file.
+2020-05-08 10:01:45,965 - INFO - Start to parse 0001144204-18-046474.txt.
+2020-05-08 10:01:46,034 - INFO - There are 10 sub-funds in this file.
+2020-05-08 10:01:46,960 - INFO - Results shape (7742, 11)
+2020-05-08 10:01:46,970 - INFO - Started to insert into database.
+2020-05-08 10:01:48,020 - INFO - Insert into vote_record successfully.
+2020-05-08 10:01:48,021 - INFO - Start to download eaton vance.
+2020-05-08 10:01:48,498 - INFO - There are 46 funds in eaton vance.
+2020-05-08 10:01:49,226 - WARNING - Found more than 1 funds after searching Eaton Vance Enhanced Equity Income Fund
+2020-05-08 10:01:50,859 - WARNING - Found more than 1 funds after searching EATON VANCE MUNICIPALS TRUST
+2020-05-08 10:01:51,607 - WARNING - Found more than 1 funds after searching Eaton Vance NextShares Trust
+2020-05-08 10:01:58,563 - WARNING - Found more than 1 funds after searching Growth Portfolio
+2020-05-08 10:02:00,096 - INFO - Obtain 46 funds after searching.
+2020-05-08 10:02:00,128 - INFO - eaton vance downloading completed.
+2020-05-08 10:02:00,130 - INFO - Start to parse 0001438934-18-000241.txt.
+2020-05-08 10:02:00,132 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:00,143 - INFO - Start to parse 0001438934-18-000243.txt.
+2020-05-08 10:02:00,186 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:00,874 - INFO - Start to parse 0001438934-18-000186.txt.
+2020-05-08 10:02:00,900 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:01,146 - INFO - Start to parse 0001438934-18-000185.txt.
+2020-05-08 10:02:01,165 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:01,461 - INFO - Start to parse 0001438934-18-000183.txt.
+2020-05-08 10:02:01,467 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:01,535 - INFO - Start to parse 0001438934-18-000182.txt.
+2020-05-08 10:02:01,538 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:01,570 - INFO - Start to parse 0001438934-18-000485.txt.
+2020-05-08 10:02:02,266 - INFO - There are 13 sub-funds in this file.
+2020-05-08 10:02:08,546 - INFO - Start to parse 0001438934-18-000486.txt.
+2020-05-08 10:02:08,552 - INFO - There are 4 sub-funds in this file.
+2020-05-08 10:02:08,554 - INFO - Start to parse 0001438934-18-000180.txt.
+2020-05-08 10:02:08,556 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:08,572 - INFO - Start to parse 0001438934-18-000491.txt.
+2020-05-08 10:02:08,589 - INFO - There are 18 sub-funds in this file.
+2020-05-08 10:02:08,590 - INFO - Start to parse 0001438934-18-000487.txt.
+2020-05-08 10:02:08,597 - INFO - There are 5 sub-funds in this file.
+2020-05-08 10:02:08,607 - INFO - Start to parse 0001438934-18-000496.txt.
+2020-05-08 10:02:11,208 - INFO - There are 53 sub-funds in this file.
+2020-05-08 10:02:35,275 - INFO - Start to parse 0001438934-18-000493.txt.
+2020-05-08 10:02:35,278 - INFO - There are 0 sub-funds in this file.
+2020-05-08 10:02:35,279 - INFO - Start to parse 0001438934-18-000494.txt.
+2020-05-08 10:02:35,282 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:35,283 - INFO - Start to parse 0001438934-18-000154.txt.
+2020-05-08 10:02:35,306 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:35,550 - INFO - Start to parse 0001438934-18-000161.txt.
+2020-05-08 10:02:35,553 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:35,583 - INFO - Start to parse 0001438934-18-000160.txt.
+2020-05-08 10:02:35,585 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:35,615 - INFO - Start to parse 0001438934-18-000492.txt.
+2020-05-08 10:02:35,618 - INFO - There are 0 sub-funds in this file.
+2020-05-08 10:02:35,623 - INFO - Start to parse 0001438934-18-000489.txt.
+2020-05-08 10:02:37,061 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:51,002 - INFO - Start to parse 0001438934-18-000488.txt.
+2020-05-08 10:02:51,204 - INFO - There are 11 sub-funds in this file.
+2020-05-08 10:02:53,009 - INFO - Start to parse 0001438934-18-000156.txt.
+2020-05-08 10:02:53,039 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:53,392 - INFO - Start to parse 0001438934-18-000158.txt.
+2020-05-08 10:02:53,493 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:54,153 - INFO - Start to parse 0001438934-18-000157.txt.
+2020-05-08 10:02:54,225 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:54,743 - INFO - Start to parse 0001438934-18-000155.txt.
+2020-05-08 10:02:54,825 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:55,746 - INFO - Start to parse 0001438934-18-000153.txt.
+2020-05-08 10:02:55,832 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:56,669 - INFO - Start to parse 0001438934-18-000152.txt.
+2020-05-08 10:02:56,690 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:56,936 - INFO - Start to parse 0001438934-18-000150.txt.
+2020-05-08 10:02:57,139 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:58,842 - INFO - Start to parse 0001438934-18-000151.txt.
+2020-05-08 10:02:58,884 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:59,328 - INFO - Start to parse 0001438934-18-000495.txt.
+2020-05-08 10:02:59,330 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:59,331 - INFO - Start to parse 0001438934-18-000260.txt.
+2020-05-08 10:02:59,335 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:59,374 - INFO - Start to parse 0001438934-18-000237.txt.
+2020-05-08 10:02:59,396 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:02:59,732 - INFO - Start to parse 0001438934-18-000238.txt.
+2020-05-08 10:02:59,755 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:03:00,071 - INFO - Start to parse 0001438934-18-000236.txt.
+2020-05-08 10:03:00,097 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:03:00,415 - INFO - Start to parse 0001438934-18-000235.txt.
+2020-05-08 10:03:00,440 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:03:00,713 - INFO - Start to parse 0001435109-18-000466.txt.
+2020-05-08 10:03:01,676 - INFO - There are 0 sub-funds in this file.
+2020-05-08 10:03:01,676 - WARNING - Something wrong with 0001435109-18-000466.txt
+2020-05-08 10:03:01,677 - INFO - Start to parse 0001438934-18-000247.txt.
+2020-05-08 10:03:01,715 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:03:02,210 - INFO - Start to parse 0001438934-18-000249.txt.
+2020-05-08 10:03:02,509 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:03:05,568 - INFO - Start to parse 0001438934-18-000250.txt.
+2020-05-08 10:03:05,603 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:03:06,086 - INFO - Start to parse 0001438934-18-000246.txt.
+2020-05-08 10:03:06,200 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:03:06,914 - INFO - Start to parse 0001438934-18-000256.txt.
+2020-05-08 10:03:06,937 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:03:07,242 - INFO - Start to parse 0001438934-18-000248.txt.
+2020-05-08 10:03:07,458 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:03:09,998 - INFO - Start to parse 0001438934-18-000262.txt.
+2020-05-08 10:03:10,025 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:03:10,344 - INFO - Start to parse 0001438934-18-000257.txt.
+2020-05-08 10:03:10,361 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:03:10,580 - INFO - Start to parse 0001438934-18-000254.txt.
+2020-05-08 10:03:10,608 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:03:10,979 - INFO - Start to parse 0001438934-18-000251.txt.
+2020-05-08 10:03:10,991 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:03:11,135 - INFO - Start to parse 0001438934-18-000239.txt.
+2020-05-08 10:03:11,743 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:03:23,890 - INFO - Results shape (164739, 11)
+2020-05-08 10:03:23,961 - INFO - Started to insert into database.
+2020-05-08 10:03:45,786 - INFO - Insert into vote_record successfully.
+2020-05-08 10:03:45,806 - INFO - Start to download rivernorth capital management, llc.
+2020-05-08 10:03:46,285 - INFO - There are 3 funds in rivernorth capital management, llc.
+2020-05-08 10:03:47,176 - INFO - Obtain 3 funds after searching.
+2020-05-08 10:03:47,180 - INFO - rivernorth capital management, llc downloading completed.
+2020-05-08 10:03:47,181 - INFO - Start to parse 0001438934-18-000523.txt.
+2020-05-08 10:03:47,205 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:03:47,981 - INFO - Start to parse 0001398344-18-012940.txt.
+2020-05-08 10:03:48,603 - INFO - There are 0 sub-funds in this file.
+2020-05-08 10:03:48,603 - WARNING - Something wrong with 0001398344-18-012940.txt
+2020-05-08 10:03:48,605 - INFO - Start to parse 0000894189-18-005017.txt.
+2020-05-08 10:03:48,611 - INFO - There are 2 sub-funds in this file.
+2020-05-08 10:03:48,769 - INFO - Results shape (204, 11)
+2020-05-08 10:03:48,794 - INFO - Started to insert into database.
+2020-05-08 10:03:48,838 - INFO - Insert into vote_record successfully.
+2020-05-08 10:03:48,839 - INFO - Start to download highland capital management fund advisors, l.p..
+2020-05-08 10:03:49,342 - INFO - There are 3 funds in highland capital management fund advisors, l.p..
+2020-05-08 10:03:50,144 - INFO - Obtain 3 funds after searching.
+2020-05-08 10:03:50,148 - INFO - highland capital management fund advisors, l.p. downloading completed.
+2020-05-08 10:03:50,149 - INFO - Start to parse 0001438934-18-000307.txt.
+2020-05-08 10:03:50,155 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:03:50,204 - INFO - Start to parse 0001438934-18-000332.txt.
+2020-05-08 10:03:50,272 - INFO - There are 5 sub-funds in this file.
+2020-05-08 10:03:51,279 - INFO - Start to parse 0001438934-18-000334.txt.
+2020-05-08 10:03:51,421 - INFO - There are 7 sub-funds in this file.
+2020-05-08 10:03:53,110 - INFO - Results shape (3606, 11)
+2020-05-08 10:03:53,112 - INFO - Started to insert into database.
+2020-05-08 10:03:53,593 - INFO - Insert into vote_record successfully.
+2020-05-08 10:03:53,594 - INFO - Start to download manning & napier.
+2020-05-08 10:03:54,066 - INFO - There are 2 funds in manning & napier.
+2020-05-08 10:03:54,364 - WARNING - Found more than 1 funds after searching MANNING & NAPIER FUND, INC.
+2020-05-08 10:03:54,772 - WARNING - Found more than 1 funds after searching MANNING & NAPIER FUND, INC.
+2020-05-08 10:03:54,775 - INFO - Obtain 2 funds after searching.
+2020-05-08 10:03:54,778 - INFO - manning & napier downloading completed.
+2020-05-08 10:03:54,783 - INFO - Start to parse 0001193125-18-220201.txt.
+2020-05-08 10:03:56,184 - INFO - There are 16 sub-funds in this file.
+2020-05-08 10:04:01,965 - WARNING - Bad type for VISA INC. in 0001193125-18-220201.txt.
+2020-05-08 10:04:01,965 - INFO - Security:  92826C839                                                             Meeting Type:  Annual
+      Ticker:  V                                                                     Meeting Date:  30-Jan-2018
+        ISIN:  US92826C8394
+--------------------------------------------------------------------------------------------------------------------------
+
+Prop.# Proposal                                                  Proposal      Proposal Vote                  For/Against
+                                                                 Type                                         Management
+
+
+1A.    ELECTION OF DIRECTOR: LLOYD A. CARNEY                     Mgmt          For                            For
+
+1B.    ELECTION OF DIRECTOR: MARY B. CRANSTON                    Mgmt          For                            For
+
+1C.    ELECTION OF DIRECTOR: FRANCISCO JAVIER                    Mgmt          For                            For
+       FERNANDEZ-CARBAJAL
+
+1D.    ELECTION OF DIRECTOR: GARY A. HOFFMAN                     Mgmt          For                            For
+
+1E.    ELECTION OF DIRECTOR: ALFRED F. KELLY, JR.                Mgmt          For                            For
+
+1F.    ELECTION OF DIRECTOR: JOHN F. LUNDGREN                    Mgmt          For                            For
+
+1G.    ELECTION OF DIRECTOR: ROBERT W. MATSCHULLAT               Mgmt          For                            For
+
+1H.    ELECTION OF DIRECTOR: SUZANNE NORA JOHNSON                Mgmt          For                            For
+
+1I.    ELECTION OF DIRECTOR: JOHN A.C. SWAINSON                  Mgmt          For                            For
+
+1J.    ELECTION OF DIRECTOR: MAYNARD G. WEBB, JR.                Mgmt          For                            For
+
+2.     ADVISORY VOTE TO APPROVE EXECUTIVE COMPENSATION.          Mgmt          For                            For
+
+3.     RATIFICATION OF THE APPOINTMENT OF KPMG LLP AS OUR        Mgmt          For                            For
+       INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM FOR THE
+       2018 FISCAL YEAR.
+
+
+
+
+* Management position unknown
+
+
+
+
+
+
+
+
+Vote Summary Report
+Reporting Period: 07/01/2017 to 08/18/2017
+Location(s): All Locations
+Institution Account(s): Rainier International Discovery Fund
+
+Supreme Industries Limited
+
+Meeting Date: 07/03/2017  Country: India              Primary Security ID: Y83139140
+Record Date: 06/27/2017   Meeting Type: Annual        Ticker: SUPREMEIND
+
+                          Primary ISIN: INE195A01028  Primary SEDOL: 6136073
+
+                          Shares Voted: 119,220          Shares on Loan: 0               Shares Instructed: 119,220
+                          Voting Policy: ISS
+
+Proposal                                                                                    Voting        Vote
+Number   Proposal Text                                                Proponent  Mgmt Rec  Policy Rec  Instruction
+-------- ------------------------------------------------------------ ---------  --------  ----------  -----------
+   1     Accept Financial Statements and Statutory Reports              Mgmt       For        For         For
+
+   2     Approve Final Dividend and Interim Dividend                    Mgmt       For        For         For
+
+   3     Reelect V.K. Taparia as Director                               Mgmt       For        For         For
+
+   4     Approve LODHA & CO., Chartered Accountants as Auditors and     Mgmt       For        For         For
+           Authorize Board to Fix Their Remuneration and Approve
+           Appointment of Branch Auditors and Authorize Board to Fix
+           Their Remuneration
+
+   5     Amend Articles of Association                                  Mgmt       For        For         For
+
+   6     Amend Terms and Conditions of Appointment of Shivratan         Mgmt       For        For         For
+           Jeetmal Taparia as Executive Director
+
+   7     Approve Remuneration of Cost Auditors                          Mgmt       For        For         For
+
+UPL Limited
+
+Meeting Date: 07/08/2017  Country: India              Primary Security ID: Y9247H166
+Record Date: 07/01/2017   Meeting Type: Annual        Ticker: 512070
+
+                          Primary ISIN: INE628A01036  Primary SEDOL: B0L0W35
+
+                          Shares Voted: 170,940          Shares on Loan: 0               Shares Instructed: 170,940
+                          Voting Policy: ISS
+
+Proposal                                                                                       Voting        Vote
+Number   Proposal Text                                                   Proponent  Mgmt Rec  Policy Rec  Instruction
+-------- --------------------------------------------------------------- ---------  --------  ----------  -----------
+    1a   Accept Financial Statements and Statutory Reports                 Mgmt       For        For         For
+
+    1b   Accept Consolidated Financial Statements and Statutory Reports    Mgmt       For        For         For
+
+    2    Approve Dividend                                                  Mgmt       For        For         For
+
+    3    Reelect Jaidev Rajnikant Shroff as Director                       Mgmt       For        For         For
+
+    4    Reelect Sandra Rajnikant Shroff as Director                       Mgmt       For        For         For
+
+
+
+
+
+
+
+Vote Summary Report
+Reporting Period: 07/01/2017 to 08/18/2017
+Location(s): All Locations
+Institution Account(s): Rainier International Discovery Fund
+
+UPL Limited
+
+Proposal                                                                                   Voting        Vote
+Number   Proposal Text                                               Proponent  Mgmt Rec  Policy Rec  Instruction
+-------- ----------------------------------------------------------- ---------  --------  ----------  -----------
+   5     Approve B S R & Co. LLP, Chartered Accountants as Auditors    Mgmt       For        For         For
+           and Authorize Board to Fix Their Remuneration
+
+   6     Approve Remuneration of Cost Auditors                         Mgmt       For        For         For
+
+   7     Approve Issuance of Non-Convertible Debentures on Private     Mgmt       For        For         For
+           Placement Basis
+
+   8     Approve Employees Stock Option Plan 2017 (ESOP 2017)          Mgmt       For        For         For
+
+   9     Approve Stock Option Plan Grants to Employees of the          Mgmt       For        For         For
+           Subsidiary Companies Under the ESOP 2017
+
+Localiza Rent a Car S.A.
+
+Meeting Date: 07/12/2017  Country: Brazil             Primary Security ID: P6330Z111
+Record Date:              Meeting Type: Special       Ticker: RENT3
+
+                          Primary ISIN: BRRENTACNOR4  Primary SEDOL: B08K3S0
+
+                          Shares Voted: 117,090          Shares on Loan: 0            Shares Instructed: 117,090
+                          Voting Policy: ISS
+
+Proposal                                                                Voting        Vote
+Number   Proposal Text                            Proponent  Mgmt Rec  Policy Rec  Instruction
+-------- ---------------------------------------- ---------  --------  ----------  -----------
+   1     Approve Three Long-Term Incentive Plans    Mgmt       For      Against     Against
+
+   2     Change Location of Company Headquarters    Mgmt       For      For         For
+
+   3     Consolidate Bylaws                         Mgmt       For      For         For
+
+The Federal Bank Ltd.
+
+Meeting Date: 07/14/2017  Country: India              Primary Security ID: Y24781182
+Record Date: 07/07/2017   Meeting Type: Annual        Ticker: FEDERALBNK
+
+                          Primary ISIN: INE171A01029  Primary SEDOL: BFT7KB7
+
+                          Shares Voted: 983,330          Shares on Loan: 0            Shares Instructed: 983,330
+                          Voting Policy: ISS
+
+Proposal                                                                          Voting        Vote
+Number   Proposal Text                                      Proponent  Mgmt Rec  Policy Rec  Instruction
+-------- -------------------------------------------------- ---------  --------  ----------  -----------
+   1     Accept Financial Statements and Statutory Reports    Mgmt       For        For         For
+
+   2     Approve Dividend                                     Mgmt       For        For         For
+
+
+
+
+
+
+
+Vote Summary Report
+Reporting Period: 07/01/2017 to 08/18/2017
+Location(s): All Locations
+Institution Account(s): Rainier International Discovery Fund
+
+The Federal Bank Ltd.
+
+Proposal                                                                                       Voting        Vote
+Number   Proposal Text                                                   Proponent  Mgmt Rec  Policy Rec  Instruction
+-------- --------------------------------------------------------------- ---------  --------  ----------  -----------
+    3    Reelect Ashutosh Khajuria as Director                             Mgmt       For      For         For
+
+    4    Approve B S R & Co. LLP, Chartered Accountants, Mumbai and        Mgmt       For      For         For
+           M M Nissim & Co, Chartered Accountants, Mumbai as Joint
+           Central Statutory Auditors and Authorize Board to Fix Their
+           Remuneration
+
+    5    Approve Branch Auditors and Authorize Board to Fix Their          Mgmt       For      For         For
+           Remuneration
+
+    6    Approve Reappointment and Remuneration of Shyam Srinivasan        Mgmt       For      For         For
+           as Managing Director and CEO
+
+    7    Approve Grant of Options to Ganesh Sankaran Under the             Mgmt       For      For         For
+           Employee Stock Option Scheme (ESOS)
+
+    8    Approve Remuneration of K M Chandrasekhar as Chairman of          Mgmt       For      For         For
+           the Bank
+
+    9    Approve Commission Remuneration for Non-Executive                 Mgmt       For      For         For
+           Directors
+
+    10   Reelect K M Chandrasekhar as Director                             Mgmt       For      For         For
+
+    11   Reelect Nilesh S Vikamsey as Director                             Mgmt       For      For         For
+
+    12   Reelect Dilip G Sadarangani as Director                           Mgmt       For      For         For
+
+    13   Reelect Harish H Engineer as Director                             Mgmt       For      Against     Against
+
+    14   Reelect Grace Elizabeth Koshie as Director                        Mgmt       For      For         For
+
+    15   Reelect Shubhalakshmi Panse as Director                           Mgmt       For      For         For
+
+    16   Approve Employee Stock Option Scheme 2017 (ESOS 2017)             Mgmt       For      Against     Against
+
+    17   Amend Articles of Association                                     Mgmt       For      For         For
+
+    18   Approve Issuance of Debt Securities on Private Placement Basis    Mgmt       For      For         For
+
+    19   Approve Increase in Borrowing Powers                              Mgmt       For      For         For
+
+Halma plc
+
+Meeting Date: 07/20/2017  Country: United Kingdom     Primary Security ID: G42504103
+Record Date: 07/18/2017   Meeting Type: Annual        Ticker: HLMA
+
+                          Primary ISIN: GB0004052071  Primary SEDOL: 0405207
+
+
+
+
+
+
+
+Vote Summary Report
+Reporting Period: 07/01/2017 to 08/18/2017
+Location(s): All Locations
+Institution Account(s): Rainier International Discovery Fund
+
+Halma plc
+
+             Shares Voted: 159,970  Shares on Loan: 0  Shares Instructed: 159,970
+             Voting Policy: ISS
+
+Proposal                                                                                     Voting        Vote
+Number   Proposal Text                                                 Proponent  Mgmt Rec  Policy Rec  Instruction
+-------- ------------------------------------------------------------- ---------  --------  ----------  -----------
+    1    Accept Financial Statements and Statutory Reports               Mgmt       For        For         For
+
+    2    Approve Final Dividend                                          Mgmt       For        For         For
+
+    3    Approve Remuneration Report                                     Mgmt       For        For         For
+
+    4    Re-elect Paul Walker as Director                                Mgmt       For        For         For
+
+    5    Re-elect Andrew Williams as Director                            Mgmt       For        For         For
+
+    6    Re-elect Kevin Thompson as Director                             Mgmt       For        For         For
+
+    7    Re-elect Adam Meyers as Director                                Mgmt       For        For         For
+
+    8    Re-elect Daniela Barone Soares as Director                      Mgmt       For        For         For
+
+    9    Re-elect Roy Twite as Director                                  Mgmt       For        For         For
+
+    10   Re-elect Tony Rice as Director                                  Mgmt       For        For         For
+
+    11   Re-elect Carole Cran as Director                                Mgmt       For        For         For
+
+    12   Elect Jennifer Ward as Director                                 Mgmt       For        For         For
+
+    13   Elect Jo Harlow as Director                                     Mgmt       For        For         For
+
+    14   Appoint PricewaterhouseCoopers LLP as Auditors                  Mgmt       For        For         For
+
+    15   Authorise Board to Fix Remuneration of Auditors                 Mgmt       For        For         For
+
+    16   Authorise Issue of Equity with Pre-emptive Rights               Mgmt       For        For         For
+
+    17   Authorise Issue of Equity without Pre-emptive Rights            Mgmt       For        For         For
+
+    18   Authorise Issue of Equity without Pre-emptive Rights in         Mgmt       For        For         For
+           Connection with an Acquisition or Other Capital Investment
+
+    19   Authorise Market Purchase of Ordinary Shares                    Mgmt       For        For         For
+
+    20   Authorise the Company to Call General Meeting with Two          Mgmt       For        For         For
+           Weeks' Notice
+2020-05-08 10:04:06,255 - INFO - Start to parse 0001193125-18-220208.txt.
+2020-05-08 10:04:06,511 - INFO - There are 5 sub-funds in this file.
+2020-05-08 10:04:09,446 - INFO - Results shape (32296, 11)
+2020-05-08 10:04:09,456 - INFO - Started to insert into database.
+2020-05-08 10:04:13,745 - INFO - Insert into vote_record successfully.
+2020-05-08 10:04:13,747 - INFO - Start to download bmo.
+2020-05-08 10:04:14,213 - INFO - There are 2 funds in bmo.
+2020-05-08 10:04:14,981 - INFO - Obtain 2 funds after searching.
+2020-05-08 10:04:14,984 - INFO - bmo downloading completed.
+2020-05-08 10:04:14,986 - INFO - Start to parse 0001438934-18-000198.txt.
+2020-05-08 10:04:15,446 - INFO - There are 43 sub-funds in this file.
+2020-05-08 10:04:20,501 - INFO - Start to parse 0001438934-18-000199.txt.
+2020-05-08 10:04:20,525 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:04:21,300 - INFO - Results shape (9958, 11)
+2020-05-08 10:04:21,307 - INFO - Started to insert into database.
+2020-05-08 10:04:22,641 - INFO - Insert into vote_record successfully.
+2020-05-08 10:04:22,642 - INFO - Start to download loomis, sayles & co. lp.
+2020-05-08 10:04:23,110 - INFO - There are 2 funds in loomis, sayles & co. lp.
+2020-05-08 10:04:23,630 - INFO - Obtain 2 funds after searching.
+2020-05-08 10:04:23,633 - INFO - loomis, sayles & co. lp downloading completed.
+2020-05-08 10:04:23,635 - INFO - Start to parse 0001438934-18-000289.txt.
+2020-05-08 10:04:23,722 - INFO - There are 11 sub-funds in this file.
+2020-05-08 10:04:24,938 - INFO - Start to parse 0001438934-18-000287.txt.
+2020-05-08 10:04:25,097 - INFO - There are 9 sub-funds in this file.
+2020-05-08 10:04:27,019 - INFO - Results shape (4426, 11)
+2020-05-08 10:04:27,024 - INFO - Started to insert into database.
+2020-05-08 10:04:27,629 - INFO - Insert into vote_record successfully.
+2020-05-08 10:04:27,630 - INFO - Start to download assetmark.
+2020-05-08 10:04:28,107 - INFO - There are 2 funds in assetmark.
+2020-05-08 10:04:28,441 - INFO - Obtain 2 funds after searching.
+2020-05-08 10:04:28,444 - INFO - assetmark downloading completed.
+2020-05-08 10:04:28,450 - INFO - Start to parse 0000894189-18-005019.txt.
+2020-05-08 10:04:29,816 - INFO - There are 7 sub-funds in this file.
+2020-05-08 10:04:46,085 - INFO - Start to parse 0000894189-18-005020.txt.
+2020-05-08 10:04:46,107 - INFO - There are 9 sub-funds in this file.
+2020-05-08 10:04:47,987 - INFO - Results shape (31254, 11)
+2020-05-08 10:04:48,001 - INFO - Started to insert into database.
+2020-05-08 10:04:52,131 - INFO - Insert into vote_record successfully.
+2020-05-08 10:04:52,133 - INFO - Start to download pacer.
+2020-05-08 10:04:52,586 - INFO - There are 1 funds in pacer.
+2020-05-08 10:04:52,861 - INFO - Obtain 1 funds after searching.
+2020-05-08 10:04:52,864 - INFO - pacer downloading completed.
+2020-05-08 10:04:52,867 - INFO - Start to parse 0000894189-18-004536.txt.
+2020-05-08 10:04:53,896 - INFO - There are 21 sub-funds in this file.
+2020-05-08 10:05:03,242 - INFO - Results shape (20092, 11)
+2020-05-08 10:05:03,253 - INFO - Started to insert into database.
+2020-05-08 10:05:05,916 - INFO - Insert into vote_record successfully.
+2020-05-08 10:05:05,918 - INFO - Start to download bridge builder.
+2020-05-08 10:05:06,390 - INFO - There are 1 funds in bridge builder.
+2020-05-08 10:05:06,625 - INFO - Obtain 1 funds after searching.
+2020-05-08 10:05:06,627 - INFO - bridge builder downloading completed.
+2020-05-08 10:05:06,637 - INFO - Start to parse 0000894189-18-004570.txt.
+2020-05-08 10:05:09,212 - INFO - There are 8 sub-funds in this file.
+2020-05-08 10:05:42,187 - INFO - Results shape (52571, 11)
+2020-05-08 10:05:42,219 - INFO - Started to insert into database.
+2020-05-08 10:05:49,174 - INFO - Insert into vote_record successfully.
+2020-05-08 10:05:49,178 - INFO - Start to download jpmorgan.
+2020-05-08 10:05:49,646 - INFO - There are 9 funds in jpmorgan.
+2020-05-08 10:05:51,933 - INFO - Obtain 9 funds after searching.
+2020-05-08 10:05:51,941 - INFO - jpmorgan downloading completed.
+2020-05-08 10:05:51,942 - INFO - Start to parse 0001438934-18-000310.txt.
+2020-05-08 10:05:51,989 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:05:52,503 - INFO - Start to parse 0001438934-18-000312.txt.
+2020-05-08 10:05:52,531 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:05:52,950 - INFO - Start to parse 0001438934-18-000316.txt.
+2020-05-08 10:05:53,584 - INFO - There are 6 sub-funds in this file.
+2020-05-08 10:06:00,140 - INFO - Start to parse 0001438934-18-000330.txt.
+2020-05-08 10:06:03,916 - INFO - There are 95 sub-funds in this file.
+2020-05-08 10:06:42,046 - INFO - Start to parse 0001438934-18-000326.txt.
+2020-05-08 10:06:42,986 - INFO - There are 31 sub-funds in this file.
+2020-05-08 10:06:54,864 - INFO - Start to parse 0001438934-18-000318.txt.
+2020-05-08 10:06:54,951 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:06:55,711 - INFO - Start to parse 0001438934-18-000324.txt.
+2020-05-08 10:06:55,759 - INFO - There are 7 sub-funds in this file.
+2020-05-08 10:06:56,325 - INFO - Start to parse 0001438934-18-000322.txt.
+2020-05-08 10:06:56,372 - INFO - There are 2 sub-funds in this file.
+2020-05-08 10:06:57,132 - INFO - Start to parse 0001438934-18-000328.txt.
+2020-05-08 10:06:59,758 - INFO - There are 25 sub-funds in this file.
+2020-05-08 10:07:37,551 - INFO - Results shape (200448, 11)
+2020-05-08 10:07:37,651 - INFO - Started to insert into database.
+2020-05-08 10:08:04,255 - INFO - Insert into vote_record successfully.
+2020-05-08 10:08:04,271 - INFO - Start to download eaton vance.
+2020-05-08 10:08:04,731 - INFO - There are 46 funds in eaton vance.
+2020-05-08 10:08:05,483 - WARNING - Found more than 1 funds after searching Eaton Vance Enhanced Equity Income Fund
+2020-05-08 10:08:07,163 - WARNING - Found more than 1 funds after searching EATON VANCE MUNICIPALS TRUST
+2020-05-08 10:08:07,903 - WARNING - Found more than 1 funds after searching Eaton Vance NextShares Trust
+2020-05-08 10:08:14,315 - WARNING - Found more than 1 funds after searching Growth Portfolio
+2020-05-08 10:08:15,609 - INFO - Obtain 46 funds after searching.
+2020-05-08 10:08:15,641 - INFO - eaton vance downloading completed.
+2020-05-08 10:08:15,642 - INFO - Start to parse 0001438934-18-000241.txt.
+2020-05-08 10:08:15,647 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:08:15,658 - INFO - Start to parse 0001438934-18-000243.txt.
+2020-05-08 10:08:15,692 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:08:16,394 - INFO - Start to parse 0001438934-18-000186.txt.
+2020-05-08 10:08:16,416 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:08:16,662 - INFO - Start to parse 0001438934-18-000185.txt.
+2020-05-08 10:08:16,687 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:08:16,985 - INFO - Start to parse 0001438934-18-000183.txt.
+2020-05-08 10:08:16,994 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:08:17,063 - INFO - Start to parse 0001438934-18-000182.txt.
+2020-05-08 10:08:17,066 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:08:17,098 - INFO - Start to parse 0001438934-18-000485.txt.
+2020-05-08 10:08:17,798 - INFO - There are 13 sub-funds in this file.
+2020-05-08 10:08:24,055 - INFO - Start to parse 0001438934-18-000486.txt.
+2020-05-08 10:08:24,062 - INFO - There are 4 sub-funds in this file.
+2020-05-08 10:08:24,063 - INFO - Start to parse 0001438934-18-000180.txt.
+2020-05-08 10:08:24,065 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:08:24,081 - INFO - Start to parse 0001438934-18-000491.txt.
+2020-05-08 10:08:24,101 - INFO - There are 18 sub-funds in this file.
+2020-05-08 10:08:24,102 - INFO - Start to parse 0001438934-18-000487.txt.
+2020-05-08 10:08:24,108 - INFO - There are 5 sub-funds in this file.
+2020-05-08 10:08:24,117 - INFO - Start to parse 0001438934-18-000496.txt.
+2020-05-08 10:08:26,738 - INFO - There are 53 sub-funds in this file.
+2020-05-08 10:08:50,862 - INFO - Start to parse 0001438934-18-000493.txt.
+2020-05-08 10:08:50,864 - INFO - There are 0 sub-funds in this file.
+2020-05-08 10:08:50,865 - INFO - Start to parse 0001438934-18-000494.txt.
+2020-05-08 10:08:50,868 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:08:50,869 - INFO - Start to parse 0001438934-18-000154.txt.
+2020-05-08 10:08:50,901 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:08:51,147 - INFO - Start to parse 0001438934-18-000161.txt.
+2020-05-08 10:08:51,150 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:08:51,179 - INFO - Start to parse 0001438934-18-000160.txt.
+2020-05-08 10:08:51,182 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:08:51,211 - INFO - Start to parse 0001438934-18-000492.txt.
+2020-05-08 10:08:51,215 - INFO - There are 0 sub-funds in this file.
+2020-05-08 10:08:51,221 - INFO - Start to parse 0001438934-18-000489.txt.
+2020-05-08 10:08:52,656 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:06,636 - INFO - Start to parse 0001438934-18-000488.txt.
+2020-05-08 10:09:06,806 - INFO - There are 11 sub-funds in this file.
+2020-05-08 10:09:08,743 - INFO - Start to parse 0001438934-18-000156.txt.
+2020-05-08 10:09:08,774 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:09,131 - INFO - Start to parse 0001438934-18-000158.txt.
+2020-05-08 10:09:09,234 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:09,893 - INFO - Start to parse 0001438934-18-000157.txt.
+2020-05-08 10:09:09,967 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:10,484 - INFO - Start to parse 0001438934-18-000155.txt.
+2020-05-08 10:09:10,567 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:11,370 - INFO - Start to parse 0001438934-18-000153.txt.
+2020-05-08 10:09:11,456 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:12,294 - INFO - Start to parse 0001438934-18-000152.txt.
+2020-05-08 10:09:12,318 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:12,564 - INFO - Start to parse 0001438934-18-000150.txt.
+2020-05-08 10:09:12,770 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:14,471 - INFO - Start to parse 0001438934-18-000151.txt.
+2020-05-08 10:09:14,535 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:14,978 - INFO - Start to parse 0001438934-18-000495.txt.
+2020-05-08 10:09:14,981 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:14,982 - INFO - Start to parse 0001438934-18-000260.txt.
+2020-05-08 10:09:14,987 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:15,026 - INFO - Start to parse 0001438934-18-000237.txt.
+2020-05-08 10:09:15,051 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:15,383 - INFO - Start to parse 0001438934-18-000238.txt.
+2020-05-08 10:09:15,410 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:15,724 - INFO - Start to parse 0001438934-18-000236.txt.
+2020-05-08 10:09:15,754 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:16,070 - INFO - Start to parse 0001438934-18-000235.txt.
+2020-05-08 10:09:16,100 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:16,370 - INFO - Start to parse 0001435109-18-000466.txt.
+2020-05-08 10:09:17,348 - INFO - There are 0 sub-funds in this file.
+2020-05-08 10:09:17,348 - WARNING - Something wrong with 0001435109-18-000466.txt
+2020-05-08 10:09:17,350 - INFO - Start to parse 0001438934-18-000247.txt.
+2020-05-08 10:09:17,409 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:17,898 - INFO - Start to parse 0001438934-18-000249.txt.
+2020-05-08 10:09:18,201 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:21,259 - INFO - Start to parse 0001438934-18-000250.txt.
+2020-05-08 10:09:21,318 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:21,801 - INFO - Start to parse 0001438934-18-000246.txt.
+2020-05-08 10:09:21,918 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:22,628 - INFO - Start to parse 0001438934-18-000256.txt.
+2020-05-08 10:09:22,656 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:22,959 - INFO - Start to parse 0001438934-18-000248.txt.
+2020-05-08 10:09:23,179 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:25,911 - INFO - Start to parse 0001438934-18-000262.txt.
+2020-05-08 10:09:25,940 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:26,257 - INFO - Start to parse 0001438934-18-000257.txt.
+2020-05-08 10:09:26,274 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:26,493 - INFO - Start to parse 0001438934-18-000254.txt.
+2020-05-08 10:09:26,525 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:26,891 - INFO - Start to parse 0001438934-18-000251.txt.
+2020-05-08 10:09:26,906 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:27,051 - INFO - Start to parse 0001438934-18-000239.txt.
+2020-05-08 10:09:27,663 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:09:39,741 - INFO - Results shape (164739, 11)
+2020-05-08 10:09:39,850 - INFO - Started to insert into database.
+2020-05-08 10:10:01,679 - INFO - Insert into vote_record successfully.
+2020-05-08 10:10:01,700 - INFO - Start to download john hancock.
+2020-05-08 10:10:02,157 - INFO - There are 19 funds in john hancock.
+2020-05-08 10:10:03,975 - WARNING - Found more than 1 funds after searching JOHN HANCOCK INVESTMENT TRUST
+2020-05-08 10:10:05,054 - WARNING - Found more than 1 funds after searching JOHN HANCOCK PREFERRED INCOME FUND
+2020-05-08 10:10:06,412 - INFO - Obtain 19 funds after searching.
+2020-05-08 10:10:06,426 - INFO - john hancock downloading completed.
+2020-05-08 10:10:06,427 - INFO - Start to parse 0001438934-18-000417.txt.
+2020-05-08 10:10:06,441 - INFO - There are 6 sub-funds in this file.
+2020-05-08 10:10:06,467 - INFO - Start to parse 0001438934-18-000389.txt.
+2020-05-08 10:10:06,505 - INFO - There are 2 sub-funds in this file.
+2020-05-08 10:10:06,829 - INFO - Start to parse 0001438934-18-000383.txt.
+2020-05-08 10:10:08,136 - INFO - There are 13 sub-funds in this file.
+2020-05-08 10:10:24,417 - INFO - Start to parse 0001438934-18-000387.txt.
+2020-05-08 10:10:24,466 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:10:25,117 - INFO - Start to parse 0001438934-18-000424.txt.
+2020-05-08 10:10:35,344 - INFO - There are 96 sub-funds in this file.
+2020-05-08 10:12:28,726 - INFO - Start to parse 0001438934-18-000406.txt.
+2020-05-08 10:12:29,067 - INFO - There are 7 sub-funds in this file.
+2020-05-08 10:12:32,012 - INFO - Start to parse 0001438934-18-000392.txt.
+2020-05-08 10:12:32,301 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:12:34,664 - INFO - Start to parse 0001438934-18-000408.txt.
+2020-05-08 10:12:35,354 - INFO - There are 13 sub-funds in this file.
+2020-05-08 10:12:41,982 - INFO - Start to parse 0001438934-18-000364.txt.
+2020-05-08 10:12:42,080 - INFO - There are 2 sub-funds in this file.
+2020-05-08 10:12:43,077 - INFO - Start to parse 0001438934-18-000395.txt.
+2020-05-08 10:12:43,137 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:12:43,556 - INFO - Start to parse 0001438934-18-000410.txt.
+2020-05-08 10:12:43,558 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:12:43,560 - INFO - Start to parse 0001438934-18-000367.txt.
+2020-05-08 10:12:43,564 - INFO - There are 2 sub-funds in this file.
+2020-05-08 10:12:43,566 - INFO - Start to parse 0001438934-18-000413.txt.
+2020-05-08 10:12:43,570 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:12:43,606 - INFO - Start to parse 0001438934-18-000373.txt.
+2020-05-08 10:12:43,610 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:12:43,646 - INFO - Start to parse 0001438934-18-000399.txt.
+2020-05-08 10:12:43,650 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:12:43,685 - INFO - Start to parse 0001438934-18-000397.txt.
+2020-05-08 10:12:43,697 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:12:43,832 - INFO - Start to parse 0001438934-18-000401.txt.
+2020-05-08 10:12:43,846 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:12:43,991 - INFO - Start to parse 0001438934-18-000347.txt.
+2020-05-08 10:12:44,060 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:12:44,603 - INFO - Start to parse 0001438934-18-000422.txt.
+2020-05-08 10:12:52,983 - INFO - There are 61 sub-funds in this file.
+2020-05-08 10:14:59,593 - INFO - Results shape (490747, 11)
+2020-05-08 10:14:59,877 - INFO - Started to insert into database.
+2020-05-08 10:16:03,516 - INFO - Insert into vote_record successfully.
+2020-05-08 10:16:03,584 - INFO - Start to download cohen & steers.
+2020-05-08 10:16:04,043 - INFO - There are 17 funds in cohen & steers.
+2020-05-08 10:16:09,205 - INFO - Obtain 17 funds after searching.
+2020-05-08 10:16:09,228 - INFO - cohen & steers downloading completed.
+2020-05-08 10:16:09,249 - INFO - Start to parse 0001438934-18-000516.txt.
+2020-05-08 10:16:09,279 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:10,063 - INFO - Start to parse 0001438934-18-000500.txt.
+2020-05-08 10:16:10,099 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:10,424 - INFO - Start to parse 0001438934-18-000518.txt.
+2020-05-08 10:16:10,566 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:11,753 - INFO - Start to parse 0001438934-18-000297.txt.
+2020-05-08 10:16:11,788 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:12,036 - INFO - Start to parse 0001438934-18-000498.txt.
+2020-05-08 10:16:12,102 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:12,536 - INFO - Start to parse 0001438934-18-000506.txt.
+2020-05-08 10:16:12,578 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:12,912 - INFO - Start to parse 0001438934-18-000502.txt.
+2020-05-08 10:16:12,942 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:13,194 - INFO - Start to parse 0001438934-18-000042.txt.
+2020-05-08 10:16:13,214 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:13,439 - INFO - Start to parse 0001438934-18-000508.txt.
+2020-05-08 10:16:13,504 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:13,871 - INFO - Start to parse 0001438934-18-000039.txt.
+2020-05-08 10:16:13,883 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:14,008 - INFO - Start to parse 0001438934-18-000420.txt.
+2020-05-08 10:16:14,015 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:14,091 - INFO - Start to parse 0001438934-18-000020.txt.
+2020-05-08 10:16:14,111 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:14,348 - INFO - Start to parse 0001438934-18-000504.txt.
+2020-05-08 10:16:14,467 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:15,348 - INFO - Start to parse 0001438934-18-000271.txt.
+2020-05-08 10:16:15,370 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:15,600 - INFO - Start to parse 0001438934-18-000044.txt.
+2020-05-08 10:16:15,620 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:15,841 - INFO - Start to parse 0001438934-18-000022.txt.
+2020-05-08 10:16:15,861 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:16,079 - INFO - Start to parse 0001438934-18-000018.txt.
+2020-05-08 10:16:16,099 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:16,927 - INFO - Results shape (12554, 11)
+2020-05-08 10:16:17,022 - INFO - Started to insert into database.
+2020-05-08 10:16:18,693 - INFO - Insert into vote_record successfully.
+2020-05-08 10:16:18,694 - INFO - Start to download jpmorgan.
+2020-05-08 10:16:19,147 - INFO - There are 9 funds in jpmorgan.
+2020-05-08 10:16:21,518 - INFO - Obtain 9 funds after searching.
+2020-05-08 10:16:21,526 - INFO - jpmorgan downloading completed.
+2020-05-08 10:16:21,527 - INFO - Start to parse 0001438934-18-000310.txt.
+2020-05-08 10:16:21,590 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:22,133 - INFO - Start to parse 0001438934-18-000312.txt.
+2020-05-08 10:16:22,177 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:16:22,617 - INFO - Start to parse 0001438934-18-000316.txt.
+2020-05-08 10:16:23,252 - INFO - There are 6 sub-funds in this file.
+2020-05-08 10:16:29,674 - INFO - Start to parse 0001438934-18-000330.txt.
+2020-05-08 10:16:33,493 - INFO - There are 95 sub-funds in this file.
+2020-05-08 10:17:11,112 - INFO - Start to parse 0001438934-18-000326.txt.
+2020-05-08 10:17:12,053 - INFO - There are 31 sub-funds in this file.
+2020-05-08 10:17:23,655 - INFO - Start to parse 0001438934-18-000318.txt.
+2020-05-08 10:17:23,743 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:17:24,488 - INFO - Start to parse 0001438934-18-000324.txt.
+2020-05-08 10:17:24,561 - INFO - There are 7 sub-funds in this file.
+2020-05-08 10:17:25,111 - INFO - Start to parse 0001438934-18-000322.txt.
+2020-05-08 10:17:25,188 - INFO - There are 2 sub-funds in this file.
+2020-05-08 10:17:25,928 - INFO - Start to parse 0001438934-18-000328.txt.
+2020-05-08 10:17:28,536 - INFO - There are 25 sub-funds in this file.
+2020-05-08 10:18:05,096 - INFO - Results shape (200448, 11)
+2020-05-08 10:18:05,188 - INFO - Started to insert into database.
+2020-05-08 10:18:30,989 - INFO - Insert into vote_record successfully.
+2020-05-08 10:18:31,013 - INFO - Start to download amg.
+2020-05-08 10:18:31,467 - INFO - There are 5 funds in amg.
+2020-05-08 10:18:31,752 - WARNING - Found more than 1 funds after searching AMG FUNDS
+2020-05-08 10:18:32,820 - INFO - Obtain 5 funds after searching.
+2020-05-08 10:18:32,829 - INFO - amg downloading completed.
+2020-05-08 10:18:32,876 - INFO - Start to parse 0001438934-18-000534.txt.
+2020-05-08 10:18:33,703 - INFO - There are 27 sub-funds in this file.
+2020-05-08 10:18:40,050 - INFO - Start to parse 0001438934-18-000539.txt.
+2020-05-08 10:18:40,363 - INFO - There are 11 sub-funds in this file.
+2020-05-08 10:18:44,579 - INFO - Start to parse 0001438934-18-000528.txt.
+2020-05-08 10:18:44,725 - INFO - There are 4 sub-funds in this file.
+2020-05-08 10:18:46,373 - INFO - Start to parse 0001438934-18-000530.txt.
+2020-05-08 10:18:46,537 - INFO - There are 6 sub-funds in this file.
+2020-05-08 10:18:48,718 - INFO - Start to parse 0001438934-18-000541.txt.
+2020-05-08 10:18:49,160 - INFO - There are 19 sub-funds in this file.
+2020-05-08 10:18:55,982 - INFO - Results shape (33173, 11)
+2020-05-08 10:18:56,038 - INFO - Started to insert into database.
+2020-05-08 10:19:00,338 - INFO - Insert into vote_record successfully.
+2020-05-08 10:19:00,341 - INFO - Start to download jnl.
+2020-05-08 10:19:00,793 - INFO - There are 3 funds in jnl.
+2020-05-08 10:19:01,587 - INFO - Obtain 3 funds after searching.
+2020-05-08 10:19:01,594 - INFO - jnl downloading completed.
+2020-05-08 10:19:01,691 - INFO - Start to parse 0001438934-18-000543.txt.
+2020-05-08 10:19:07,573 - INFO - There are 120 sub-funds in this file.
+2020-05-08 10:20:12,260 - INFO - Start to parse 0001438934-18-000454.txt.
+2020-05-08 10:20:12,264 - INFO - There are 1 sub-funds in this file.
+2020-05-08 10:20:12,356 - INFO - Start to parse 0001438934-18-000456.txt.
+2020-05-08 10:20:13,778 - INFO - There are 11 sub-funds in this file.
+2020-05-08 10:20:38,607 - INFO - Results shape (168359, 11)
+2020-05-08 10:20:38,696 - INFO - Started to insert into database.
+2020-05-08 10:21:00,427 - INFO - Insert into vote_record successfully.
