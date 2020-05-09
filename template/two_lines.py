@@ -1,3 +1,14 @@
+"""
+File:           two_lines.py
+Version:        0.1
+Author:         Marlowe Zhong
+Creation Date:  Friday, May 8th 2020, 6:29:01 pm
+-----
+Last Modified:  Saturday, May 9th 2020, 5:16:50 pm
+Modified By:    Marlowe Zhong (marlowezhong@gmail.com)
+"""
+
+
 # import packages
 import re
 import os

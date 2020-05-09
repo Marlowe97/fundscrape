@@ -1,12 +1,25 @@
+"""
+File:           base.py
+Version:        0.1
+Author:         Marlowe Zhong
+Creation Date:  Friday, May 8th 2020, 6:29:01 pm
+-----
+Last Modified:  Saturday, May 9th 2020, 5:16:44 pm
+Modified By:    Marlowe Zhong (marlowezhong@gmail.com)
+"""
+
+
 # import packages
 import re
 import os
 import requests
 import logging
 import pandas as pd
+import numpy as np
 from bs4 import BeautifulSoup
 from io import StringIO
 from tqdm import tqdm
+
 
 # Record the regular expression for each data field in the table head
 head_pattern = {'ticker': r"(?<=Ticker:)\s*\w*",
