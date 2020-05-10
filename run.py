@@ -8,7 +8,7 @@ Last Modified:  Saturday, May 9th 2020, 5:18:41 pm
 Modified By:    Marlowe Zhong (marlowezhong@gmail.com)
 """
 
-ABS_PATH = "E:/Marlowe/RA/"
+ABS_PATH = "/user/zz2654/python/"
 
 import os
 import sys
@@ -83,6 +83,7 @@ for ff in tqdm(ff_list):
     link_table = download(ff, output_path=text_root, info_path=ABS_PATH + "npx_parse/Edgar list2018_v2.xlsx")
     results = up_down.parse(link_table, text_root=text_root)
     results['securityID'] = results['securityID'].str.split(' ').str[1]
+    # logging.info(results.head())
     columns = ["securityID", "company", "ticker", "fund_company",
                "meetingDate", "meetingType", "Description", "Proponent", "Vote Cast"]
     logging.info("Started to insert into database.")
@@ -115,7 +116,7 @@ for ff in tqdm(ff_list):
     for col in ['ticker', 'Proposed by']:
         if col not in results.columns:
             results[col] = np.nan
-    logging.info(results.head())
+    # logging.info(results.head())
     columns = ["securityID", "company", "ticker", "fund_company",
                "meetingDate", "meetingType", "Proposal", "Proposed by", "Vote"]
     logging.info("Started to insert into database.")
@@ -135,10 +136,12 @@ for ff in tqdm(ff_list[:]):
     if ff == "principal":
         link_table = link_table[link_table.file_name != "0001398344-18-012738.txt"].reset_index(drop=True)
     results = border.parse(link_table, text_root=text_root)
+    if 'meetingType' not in results.columns:
+        results['meetingType'] = np.nan
     columns = ["securityID", "company", "ticker", "fund_company",
                "meetingDate", "meetingType", "Proposal", "Proposed By", "Vote Cast"]
 
-    logging.info(results.head())
+    # logging.info(results.head())
     logging.info("Started to insert into database.")
     dataIO.insert_dataframe(results[columns])
 

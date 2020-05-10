@@ -55,8 +55,8 @@ def parse(link_table, text_root='text/'):
 
         bs = BeautifulSoup(text,'lxml')
 
-        if re.search(r'Proxy\s*Voting\s*Record', text, re.IGNORECASE):
-            tables = bs.find_all(text = lambda x: re.search(r'Proxy\s*Voting\s*Record', x, flags=re.IGNORECASE))[-1].find_all_next('table')
+        if bs.find(text = lambda x: re.search(r'Proxy\s*Voting\s*Records?\.?$', x, flags=re.IGNORECASE)):
+            tables = bs.find_all(text = lambda x: re.search(r'Proxy\s*Voting\s*Records?\.?$', x, flags=re.IGNORECASE))[-1].find_all_next('table')
         else:
             tables = bs.find_all('table')
 
