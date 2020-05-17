@@ -44,7 +44,8 @@ for ff in tqdm(ff_list[:]):
         os.makedirs(text_root)
     link_table = download(ff, output_path=text_root, info_path=ABS_PATH + "npx_parse/Edgar list2018_v2.xlsx")
     results = base.parse(link_table, text_root=text_root)
-    columns = ["securityID", "company", "ticker", "fund_company",
+    results['parent_fund_company'] = ff
+    columns = ["securityID", "company", "ticker", "fund_company", "parent_fund_company",
                "meetingDate", "meetingType", "Proposal", "Sponsor", "Vote Cast"]
     logging.info("Started to insert into database.")
     dataIO.insert_dataframe(results[columns])
@@ -64,7 +65,8 @@ for ff in tqdm(ff_list[:]):
         os.makedirs(text_root)
     link_table = download(ff, output_path=text_root, info_path=ABS_PATH + "npx_parse/Edgar list2018_v2.xlsx")
     results = two_lines.parse(link_table, text_root=text_root)
-    columns = ["securityID", "company", "ticker", "fund_company",
+    results['parent_fund_company'] = ff
+    columns = ["securityID", "company", "ticker", "fund_company", "parent_fund_company",
                "meetingDate", "meetingType", "Proposal", "Proposal Type", "Proposal Vote"]
     logging.info("Started to insert into database.")
     dataIO.insert_dataframe(results[columns])
@@ -83,8 +85,9 @@ for ff in tqdm(ff_list):
     link_table = download(ff, output_path=text_root, info_path=ABS_PATH + "npx_parse/Edgar list2018_v2.xlsx")
     results = up_down.parse(link_table, text_root=text_root)
     results['securityID'] = results['securityID'].str.split(' ').str[1]
+    results['parent_fund_company'] = ff
     # logging.info(results.head())
-    columns = ["securityID", "company", "ticker", "fund_company",
+    columns = ["securityID", "company", "ticker", "fund_company", "parent_fund_company",
                "meetingDate", "meetingType", "Description", "Proponent", "Vote Cast"]
     logging.info("Started to insert into database.")
     dataIO.insert_dataframe(results[columns])
@@ -117,7 +120,8 @@ for ff in tqdm(ff_list):
         if col not in results.columns:
             results[col] = np.nan
     # logging.info(results.head())
-    columns = ["securityID", "company", "ticker", "fund_company",
+    results['parent_fund_company'] = ff
+    columns = ["securityID", "company", "ticker", "fund_company", "parent_fund_company",
                "meetingDate", "meetingType", "Proposal", "Proposed by", "Vote"]
     logging.info("Started to insert into database.")
     dataIO.insert_dataframe(results[columns])
@@ -138,7 +142,8 @@ for ff in tqdm(ff_list[:]):
     results = border.parse(link_table, text_root=text_root)
     if 'meetingType' not in results.columns:
         results['meetingType'] = np.nan
-    columns = ["securityID", "company", "ticker", "fund_company",
+    results['parent_fund_company'] = ff
+    columns = ["securityID", "company", "ticker", "fund_company", "parent_fund_company",
                "meetingDate", "meetingType", "Proposal", "Proposed By", "Vote Cast"]
 
     # logging.info(results.head())

@@ -62,6 +62,6 @@ if __name__ == "__main__":
 
     # Create table
     c.execute('''CREATE TABLE vote_record
-                (cusip text, company_name text, ticker text, fund_company text,
+                (cusip text, company_name text, ticker text, fund_company text, parent_fund_company text,
                 meeting_date text, meeting_type text, proposal text,
                 sponsor text, vote text)''')
