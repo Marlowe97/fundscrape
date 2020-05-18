@@ -4,7 +4,7 @@ Version:        0.1
 Author:         Marlowe Zhong
 Creation Date:  Monday, May 4th 2020, 7:30:29 pm
 -----
-Last Modified:  Tuesday, May 5th 2020, 3:49:33 pm
+Last Modified:  Sunday, May 17th 2020, 11:51:43 am
 Modified By:    Marlowe Zhong (marlowezhong@gmail.com)
 """
 
@@ -46,6 +46,13 @@ class NpxVote:
         DELETE FROM CTE WHERE RN<>1
         '''
         logging.info("Duplicates dropped.")
+        self.cursor.execute(sql_query)
+
+    def delete_fund_family(self, fund_family):
+        sql_query = f'''
+        DELETE FROM vote_record WHERE parent_fund_company='{fund_family}'
+        '''
+        logging.info(f"{fund_family} deleted.")
         self.cursor.execute(sql_query)
 
     def clear(self, table="vote_record"):

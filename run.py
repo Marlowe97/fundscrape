@@ -4,7 +4,7 @@ Version:        0.1
 Author:         Marlowe Zhong
 Creation Date:  Saturday, May 2nd 2020, 12:52:29 pm
 -----
-Last Modified:  Saturday, May 9th 2020, 5:18:41 pm
+Last Modified:  Sunday, May 17th 2020, 2:55:17 pm
 Modified By:    Marlowe Zhong (marlowezhong@gmail.com)
 """
 
@@ -43,6 +43,8 @@ for ff in tqdm(ff_list[:]):
     if not os.path.isdir(f"results_2018/{ff}/"):
         os.makedirs(text_root)
     link_table = download(ff, output_path=text_root, info_path=ABS_PATH + "npx_parse/Edgar list2018_v2.xlsx")
+    if ff == "financial investors trust":
+        link_table = link_table[link_table.file_name != "0001398344-18-012320.txt"].reset_index(drop=True)
     results = base.parse(link_table, text_root=text_root)
     results['parent_fund_company'] = ff
     columns = ["securityID", "company", "ticker", "fund_company", "parent_fund_company",
