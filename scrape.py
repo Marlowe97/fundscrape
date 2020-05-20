@@ -7,7 +7,7 @@ import logging
 
 
 def download(fund_family, output_path="text/", info_path="/user/zz2654/python/npx_parse/Edgar list2018.xlsx", info_crawl=None,
-             info_sheet_name=0):
+             info_sheet_name=0, year=2018):
     logging.info(f"Start to download {fund_family.strip()}.")
     info = pd.read_excel(info_path, sheet_name=info_sheet_name)
     info["parentfundcompany"] = info["parentfundcompany"].str.lower()
@@ -21,7 +21,6 @@ def download(fund_family, output_path="text/", info_path="/user/zz2654/python/np
     link_table = []
 
     for company_name in info.Company:
-        year = 2018
         page_size = 80
         main = "https://www.sec.gov"
         search_url = (

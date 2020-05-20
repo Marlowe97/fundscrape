@@ -4,7 +4,7 @@ Version:        0.1
 Author:         Marlowe Zhong
 Creation Date:  Friday, May 8th 2020, 6:29:01 pm
 -----
-Last Modified:  Wednesday, May 20th 2020, 4:18:52 pm
+Last Modified:  Wednesday, May 20th 2020, 6:03:47 pm
 Modified By:    Marlowe Zhong (marlowezhong@gmail.com)
 """
 
@@ -175,12 +175,25 @@ def parse(link_table, text_root='text/', first_separate = r"={1,}([^=\n]+)={3,}"
                                     pass
                         # if the line starts with spaces, combine with the line above
                         elif line.startswith("    "):
+                            aligned = True
                             if len(data) > 0:
                                 # check each column to add the data fields
                                 for i in range(len(cpos) - 1):
-                                    add = line[cpos[i]:cpos[i+1]].strip()
-                                    if add:
-                                        data[-1][cnames[i]] +=  (" " + add)
+                                    value = line[cpos[i]:cpos[i+1]]
+                                    if value:
+                                        if aligned:
+                                            add = value.strip()
+                                            if add:
+                                                data[-1][cnames[i]] +=  (" " + add)
+                                        else:
+                                            add_prev = value.strip()
+                                            if add_prev:
+                                                data[-1][cnames[i-1]] += add_prev
+
+                                        if value.endswith(" ") or value.endswith('\n'):
+                                            aligned = True
+                                        else:
+                                            aligned = False
 
                         elif line.startswith("====="):
                             break
@@ -194,7 +207,7 @@ def parse(link_table, text_root='text/', first_separate = r"={1,}([^=\n]+)={3,}"
                                 if aligned:
                                     row[cnames[i]] = value.strip()
                                 else:
-                                    values = value.split("  ")
+                                    values = re.split(r"\s{2,}", value)
                                     if len(values) == 2:
                                         row[cnames[i-1]] = row[cnames[i-1]] + values[0]
                                         row[cnames[i]] = values[1]
