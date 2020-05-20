@@ -4,7 +4,7 @@ Version:        0.1
 Author:         Marlowe Zhong
 Creation Date:  Friday, May 8th 2020, 6:29:01 pm
 -----
-Last Modified:  Saturday, May 9th 2020, 5:16:44 pm
+Last Modified:  Wednesday, May 20th 2020, 4:18:52 pm
 Modified By:    Marlowe Zhong (marlowezhong@gmail.com)
 """
 
@@ -89,15 +89,18 @@ def generate_dataframe(data, head_info, fund_name, company, fund_company):
     '''
     df = pd.DataFrame(data)
     # drop the index column
-    df.drop('#', axis=1, inplace=True)
-    # add the information in the table head
-    df.replace("", np.nan, inplace=True)
-    for key, value in head_info.items():
-        df[key] = value
-    df['fund_name'] = fund_name
-    df['company'] = company
-    df['fund_company'] = fund_company
-    return df
+    if '#' in df.columns:
+        df.drop('#', axis=1, inplace=True)
+        # add the information in the table head
+        df.replace("", np.nan, inplace=True)
+        for key, value in head_info.items():
+            df[key] = value
+        df['fund_name'] = fund_name
+        df['company'] = company
+        df['fund_company'] = fund_company
+        return df
+    else:
+        return None
 
 def parse(link_table, text_root='text/', first_separate = r"={1,}([^=\n]+)={3,}",
           second_separate=r"\-{10,}"):
@@ -178,12 +181,29 @@ def parse(link_table, text_root='text/', first_separate = r"={1,}([^=\n]+)={3,}"
                                     add = line[cpos[i]:cpos[i+1]].strip()
                                     if add:
                                         data[-1][cnames[i]] +=  (" " + add)
+
+                        elif line.startswith("====="):
+                            break
                         # finally, if a line in the table
                         # use the position of columns to get the text
                         else:
                             row = {}
+                            aligned = True
                             for i in range(len(cpos) - 1):
-                                row[cnames[i]] = line[cpos[i]:cpos[i+1]].strip()
+                                value = line[cpos[i]:cpos[i+1]]
+                                if aligned:
+                                    row[cnames[i]] = value.strip()
+                                else:
+                                    values = value.split("  ")
+                                    if len(values) == 2:
+                                        row[cnames[i-1]] = row[cnames[i-1]] + values[0]
+                                        row[cnames[i]] = values[1]
+                                    else:
+                                        logging.warning(f"Bad Type. {values}")
+                                if value.endswith(" ") or value.endswith('\n'):
+                                    aligned = True
+                                else:
+                                    aligned = False
                             data.append(row)
                     dfs.append(generate_dataframe(data, head_info, fund_name, company, fund_company=link_table.loc[n,'fund_company']))
     results = pd.concat(dfs,sort=False, ignore_index=True)
