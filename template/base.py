@@ -4,7 +4,7 @@ Version:        0.1
 Author:         Marlowe Zhong
 Creation Date:  Friday, May 8th 2020, 6:29:01 pm
 -----
-Last Modified:  Wednesday, May 20th 2020, 6:03:47 pm
+Last Modified:  Thursday, May 28th 2020, 8:08:29 am
 Modified By:    Marlowe Zhong (marlowezhong@gmail.com)
 """
 
@@ -17,7 +17,6 @@ import logging
 import pandas as pd
 import numpy as np
 from bs4 import BeautifulSoup
-from io import StringIO
 from tqdm import tqdm
 
 
@@ -42,16 +41,20 @@ def preprocess(text, file_name):
     '''
     Preprocess the text file
     '''
+    if re.search(r"</font>", text):
+        for string in re.findall(r"(<font(?:.|\n)*?</font>)", text):
+            text = text.replace(string, string.replace("\n", " "))
+
     # remove the last few lines
     try:
-        if re.search(r'END N(?:-)?PX[-| ]REPORT', text):
+        if re.search(r'<PAGE>', text):
+            text = re.search(r'((?:.|\n)*)<PAGE>', text).group(1)
+        elif re.search(r'END N(?:-)?PX[-| ]REPORT', text):
             text = re.search(r'((?:.|\n)*)END N(?:-)?PX[-| ]REPORT', text).group(1)
         elif re.search(r'SIGNATURES', text):
             text = re.search(r'((?:.|\n)*)SIGNATURES', text).group(1)
         elif re.search(r'</PRE>', text):
             text = re.search(r'((?:.|\n)*)</PRE>', text).group(1)
-        elif re.search(r'<PAGE>', text):
-            text = re.search(r'((?:.|\n)*)<PAGE>', text).group(1)
         else:
             logging.warning(f"Ending not found in {file_name}!")
             return None
@@ -83,11 +86,12 @@ def get_columns(line):
     column_pos.append(None)
     return column_names, column_pos
 
-def generate_dataframe(data, head_info, fund_name, company, fund_company):
+def generate_dataframe(data, head_info, fund_name, company, fund_company, link):
     '''
     Generate the output dataframe from the data and information in the table head
     '''
     df = pd.DataFrame(data)
+    df.dropna(how='all', inplace=True)
     # drop the index column
     if '#' in df.columns:
         df.drop('#', axis=1, inplace=True)
@@ -98,6 +102,7 @@ def generate_dataframe(data, head_info, fund_name, company, fund_company):
         df['fund_name'] = fund_name
         df['company'] = company
         df['fund_company'] = fund_company
+        df['link'] = link
         return df
     else:
         return None
@@ -136,11 +141,11 @@ def parse(link_table, text_root='text/', first_separate = r"={1,}([^=\n]+)={3,}"
                     continue
                 # get the name of the fund
                 fund_name = tables[i].strip()
-                for segment in segments:
-                    if re.search("no prox[y|ies]", segment):
+                for raw_segment in segments:
+                    if re.search("no prox[y|ies]", raw_segment):
                         break
                     # split the segment into lines
-                    segment = drop_empty(segment.split('\n'))
+                    segment = drop_empty(raw_segment.split('\n'))
                     # require the segment have at least 4 lines
                     if len(segment) < 4:
                         continue
@@ -162,7 +167,9 @@ def parse(link_table, text_root='text/', first_separate = r"={1,}([^=\n]+)={3,}"
                             # if we already have column headers
                             # save the data we already have and use the new header
                             else:
-                                dfs.append(generate_dataframe(data, head_info, fund_name, company, fund_company=link_table.loc[n,'fund_company']))
+                                dfs.append(generate_dataframe(data, head_info, fund_name, company, 
+                                                              fund_company=link_table.loc[n,'fund_company'],
+                                                              link=link_table.loc[n, 'file_link']))
                                 data = []
 
                         # if this line is in the head information part
@@ -173,44 +180,49 @@ def parse(link_table, text_root='text/', first_separate = r"={1,}([^=\n]+)={3,}"
                                     head_info[key] = re.search(value, line).group(0).strip()
                                 except:
                                     pass
+                        elif line.startswith("=====") or line.strip()=="SIGNATURES":
+                            break
                         # if the line starts with spaces, combine with the line above
                         elif line.startswith("    "):
                             aligned = True
                             if len(data) > 0:
                                 # check each column to add the data fields
-                                for i in range(len(cpos) - 1):
-                                    value = line[cpos[i]:cpos[i+1]]
+                                for j in range(len(cpos) - 1):
+                                    value = line[cpos[j]:cpos[j+1]]
                                     if value:
                                         if aligned:
                                             add = value.strip()
                                             if add:
-                                                data[-1][cnames[i]] +=  (" " + add)
+                                                data[-1][cnames[j]] +=  (" " + add)
                                         else:
                                             add_prev = value.strip()
                                             if add_prev:
-                                                data[-1][cnames[i-1]] += add_prev
+                                                data[-1][cnames[j-1]] += add_prev
 
                                         if value.endswith(" ") or value.endswith('\n'):
                                             aligned = True
                                         else:
                                             aligned = False
 
-                        elif line.startswith("====="):
-                            break
                         # finally, if a line in the table
                         # use the position of columns to get the text
                         else:
                             row = {}
                             aligned = True
-                            for i in range(len(cpos) - 1):
-                                value = line[cpos[i]:cpos[i+1]]
+                            for j in range(len(cpos) - 1):
+                                value = line[cpos[j]:cpos[j+1]]
                                 if aligned:
-                                    row[cnames[i]] = value.strip()
+                                    row[cnames[j]] = value.strip()
                                 else:
                                     values = re.split(r"\s{2,}", value)
                                     if len(values) == 2:
-                                        row[cnames[i-1]] = row[cnames[i-1]] + values[0]
-                                        row[cnames[i]] = values[1]
+                                        try:
+                                            row[cnames[j-1]] = row[cnames[j-1]] + values[0]
+                                            row[cnames[j]] = values[1]
+                                        except Exception as e:
+                                            logging.warning(f"{e}. Bad Type. {values}")
+                                            row = {}
+                                            break
                                     else:
                                         logging.warning(f"Bad Type. {values}")
                                 if value.endswith(" ") or value.endswith('\n'):
@@ -218,7 +230,9 @@ def parse(link_table, text_root='text/', first_separate = r"={1,}([^=\n]+)={3,}"
                                 else:
                                     aligned = False
                             data.append(row)
-                    dfs.append(generate_dataframe(data, head_info, fund_name, company, fund_company=link_table.loc[n,'fund_company']))
+                    dfs.append(dfs.append(generate_dataframe(data, head_info, fund_name, company, 
+                                                             fund_company=link_table.loc[n,'fund_company'],
+                                                             link=link_table.loc[n, 'file_link'])))
     results = pd.concat(dfs,sort=False, ignore_index=True)
     logging.info(f"Results shape {results.shape}")
     return results

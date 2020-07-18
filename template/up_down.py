@@ -4,7 +4,7 @@ Version:        0.1
 Author:         Marlowe Zhong
 Creation Date:  Friday, May 8th 2020, 6:29:01 pm
 -----
-Last Modified:  Saturday, May 9th 2020, 7:26:03 pm
+Last Modified:  Thursday, May 28th 2020, 12:05:04 am
 Modified By:    Marlowe Zhong (marlowezhong@gmail.com)
 """
 
@@ -49,7 +49,7 @@ def preprocess(text, file_name):
     text = re.sub(r"Registrant :([^\n]+)", "", text)
     return text
 
-def generate_dataframe(data, head_info, fund_name, company, fund_company):
+def generate_dataframe(data, head_info, fund_name, company, fund_company, link):
     '''
     Generate the output dataframe from the data and information in the table head
     '''
@@ -61,6 +61,7 @@ def generate_dataframe(data, head_info, fund_name, company, fund_company):
     df['fund_name'] = fund_name
     df['company'] = company
     df['fund_company'] = fund_company
+    df['link'] = link
     return df
 
 def parse(link_table, text_root='text/', first_separate=r"Fund Name :([^\n]+)\n", second_separate=r"\_{10,}"):
@@ -149,7 +150,9 @@ def parse(link_table, text_root='text/', first_separate=r"Fund Name :([^\n]+)\n"
                                 row[cnames[i]] = line[cpos[i]:cpos[i+1]].strip()
                             data.append(row)
 
-                    dfs.append(generate_dataframe(data, head_info, fund_name, company, fund_company=link_table.loc[n, 'fund_company']))
+                    dfs.append(generate_dataframe(data, head_info, fund_name, company, 
+                                                  fund_company=link_table.loc[n, 'fund_company'],
+                                                  link=link_table.loc[n, 'file_link']))
 
     results = pd.concat(dfs, sort=False, ignore_index=True)
     logging.info(f"Results shape {results.shape}")

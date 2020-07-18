@@ -4,7 +4,7 @@ Version:        0.1
 Author:         Marlowe Zhong
 Creation Date:  Friday, May 8th 2020, 6:29:01 pm
 -----
-Last Modified:  Saturday, May 9th 2020, 7:26:17 pm
+Last Modified:  Wednesday, May 27th 2020, 11:38:19 pm
 Modified By:    Marlowe Zhong (marlowezhong@gmail.com)
 """
 
@@ -133,6 +133,7 @@ def parse(link_table, text_root='text/', first_separate = r"[^-\d]\n([^\n:]+)\n{
                     df['fund_name'] = fund_name
                     df['company'] = company
                     df['fund_company'] = link_table.loc[n,'fund_company']
+                    df['link'] = link_table.loc[n,'file_link']
                     dfs.append(df)
     results = pd.concat(dfs,sort=False, ignore_index=True)
     logging.info(f"Results shape {results.shape}")

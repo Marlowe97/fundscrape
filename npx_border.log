@@ -1,6 +1,82 @@
-2020-05-09 16:11:01,502 - INFO - Start to download nushares.
-2020-05-09 16:11:01,798 - INFO - There are 1 funds in nushares.
-2020-05-09 16:11:02,112 - INFO - Obtain 1 funds after searching.
-2020-05-09 16:11:02,113 - INFO - nushares downloading completed.
-2020-05-09 16:11:02,150 - INFO - Start to parse 0001193125-18-252260.txt.
-2020-05-09 16:11:07,314 - INFO - There are 1988 vote records in this file.
+2020-05-29 16:41:56,199 - INFO - Start to download american century.
+2020-05-29 16:41:56,493 - INFO - There are 16 funds in american century.
+2020-05-29 16:42:00,682 - INFO - Obtain 16 funds after searching.
+2020-05-29 16:42:00,692 - INFO - american century downloading completed.
+2020-05-29 16:42:00,746 - INFO - Start to parse 0001293210-18-000079.txt.
+2020-05-29 16:42:01,236 - INFO - There are 217 vote records in this file.
+2020-05-29 16:42:03,776 - INFO - Start to parse 0000717316-18-000019.txt.
+2020-05-29 16:42:03,785 - INFO - There are 1 vote records in this file.
+2020-05-29 16:42:04,356 - INFO - Start to parse 0000908186-18-000142.txt.
+2020-05-29 16:42:10,072 - INFO - There are 1206 vote records in this file.
+2020-05-29 16:43:23,529 - INFO - Start to parse 0001710607-18-000104.txt.
+2020-05-29 16:43:24,378 - INFO - There are 202 vote records in this file.
+2020-05-29 16:43:43,958 - INFO - Start to parse 0000773674-18-000033.txt.
+2020-05-29 16:43:43,970 - INFO - There are 1 vote records in this file.
+2020-05-29 16:43:44,049 - INFO - Start to parse 0001353176-18-000040.txt.
+2020-05-29 16:43:45,045 - INFO - There are 188 vote records in this file.
+2020-05-29 16:43:55,681 - INFO - Start to parse 0000880268-18-000040.txt.
+2020-05-29 16:43:55,695 - INFO - There are 2 vote records in this file.
+2020-05-29 16:43:55,727 - INFO - Start to parse 0000908406-18-000067.txt.
+2020-05-29 16:43:55,772 - INFO - There are 9 vote records in this file.
+2020-05-29 16:43:55,914 - INFO - Start to parse 0000746458-18-000009.txt.
+2020-05-29 16:43:55,923 - INFO - There are 1 vote records in this file.
+2020-05-29 16:43:56,458 - INFO - Start to parse 0000100334-18-000097.txt.
+2020-05-29 16:44:02,214 - INFO - There are 1200 vote records in this file.
+2020-05-29 16:45:09,795 - INFO - Start to parse 0000827060-18-000075.txt.
+2020-05-29 16:45:20,671 - INFO - There are 2543 vote records in this file.
+2020-05-29 16:48:58,054 - INFO - Start to parse 0000924211-18-000074.txt.
+2020-05-29 16:49:15,197 - INFO - There are 3850 vote records in this file.
+2020-05-29 17:31:22,627 - INFO - Start to parse 0000757928-18-000018.txt.
+2020-05-29 17:31:22,639 - INFO - There are 1 vote records in this file.
+2020-05-29 17:31:22,654 - INFO - Start to parse 0001124155-18-000017.txt.
+2020-05-29 17:31:22,662 - INFO - There are 1 vote records in this file.
+2020-05-29 17:31:23,163 - INFO - Start to parse 0000814680-18-000120.txt.
+2020-05-29 17:31:29,875 - INFO - There are 946 vote records in this file.
+2020-05-29 17:32:33,839 - INFO - Start to parse 0000872825-18-000091.txt.
+2020-05-29 17:32:45,227 - INFO - There are 1823 vote records in this file.
+2020-05-29 17:35:10,988 - INFO - Results shape (137704, 15)
+2020-05-29 17:35:19,702 - INFO - american century deleted.
+2020-05-29 17:35:19,702 - INFO - Started to insert into database.
+2020-05-29 17:35:36,378 - INFO - Insert into vote_record successfully.
+2020-05-29 17:35:36,388 - INFO - Start to download principal.
+2020-05-29 17:35:36,816 - INFO - There are 5 funds in principal.
+2020-05-29 17:35:37,082 - WARNING - Found more than 1 funds after searching PRINCIPAL FUNDS INC
+2020-05-29 17:35:37,357 - WARNING - Found more than 1 funds after searching PRINCIPAL FUNDS INC
+2020-05-29 17:35:38,118 - INFO - Obtain 5 funds after searching.
+2020-05-29 17:35:38,121 - INFO - principal downloading completed.
+2020-05-29 17:35:38,799 - INFO - Start to parse 0000898745-18-000654.txt.
+2020-05-29 17:36:08,008 - INFO - There are 10303 vote records in this file.
+2020-05-29 18:06:39,313 - INFO - Start to parse 0000898745-18-000655.txt.
+2020-05-29 18:06:50,445 - INFO - There are 3829 vote records in this file.
+2020-05-29 18:17:03,304 - INFO - Start to parse 0000012601-18-000181.txt.
+2020-05-29 18:17:09,730 - INFO - There are 2035 vote records in this file.
+2020-05-29 18:20:09,232 - INFO - Start to parse 0001572661-18-000126.txt.
+2020-05-29 18:20:15,033 - INFO - There are 1671 vote records in this file.
+2020-05-29 18:22:15,825 - INFO - Results shape (195984, 14)
+2020-05-29 18:22:21,437 - INFO - principal deleted.
+2020-05-29 18:22:21,437 - INFO - Started to insert into database.
+2020-05-29 18:22:44,802 - INFO - Insert into vote_record successfully.
+2020-05-29 18:22:44,816 - INFO - Start to download grantham, mayo, van otterloo co. llc.
+2020-05-29 18:22:45,179 - INFO - There are 2 funds in grantham, mayo, van otterloo co. llc.
+2020-05-29 18:22:45,737 - INFO - Obtain 2 funds after searching.
+2020-05-29 18:22:45,739 - INFO - grantham, mayo, van otterloo co. llc downloading completed.
+2020-05-29 18:22:45,750 - INFO - Start to parse 0001144204-18-047052.txt.
+2020-05-29 18:22:45,764 - INFO - There are 12 vote records in this file.
+2020-05-29 18:22:46,248 - INFO - Start to parse 0001144204-18-047048.txt.
+2020-05-29 18:23:06,690 - INFO - There are 6724 vote records in this file.
+2020-05-29 18:43:46,093 - INFO - Results shape (75344, 14)
+2020-05-29 18:43:51,069 - INFO - grantham, mayo, van otterloo co. llc deleted.
+2020-05-29 18:43:51,069 - INFO - Started to insert into database.
+2020-05-29 18:43:59,952 - INFO - Insert into vote_record successfully.
+2020-05-29 18:43:59,956 - INFO - Start to download nationwide.
+2020-05-29 18:44:00,389 - INFO - There are 2 funds in nationwide.
+2020-05-29 18:44:00,888 - INFO - Obtain 2 funds after searching.
+2020-05-29 18:44:00,890 - INFO - nationwide downloading completed.
+2020-05-29 18:44:01,328 - INFO - Start to parse 0001193125-18-252643.txt.
+2020-05-29 18:44:21,431 - INFO - There are 6945 vote records in this file.
+2020-05-29 19:05:20,656 - INFO - Start to parse 0001193125-18-252787.txt.
+2020-05-29 19:05:42,302 - INFO - There are 7987 vote records in this file.
+2020-05-29 19:26:38,004 - INFO - Results shape (157637, 14)
+2020-05-29 19:26:43,070 - INFO - nationwide deleted.
+2020-05-29 19:26:43,070 - INFO - Started to insert into database.
+2020-05-29 19:27:01,422 - INFO - Insert into vote_record successfully.

@@ -4,7 +4,7 @@ Version:        0.1
 Author:         Marlowe Zhong
 Creation Date:  Monday, May 4th 2020, 7:30:29 pm
 -----
-Last Modified:  Sunday, May 17th 2020, 11:51:43 am
+Last Modified:  Thursday, May 28th 2020, 5:50:50 pm
 Modified By:    Marlowe Zhong (marlowezhong@gmail.com)
 """
 
@@ -29,10 +29,11 @@ class NpxVote:
             logging.warning(f"Failed to insert into SQL table. {values_quote}")
 
     def insert_dataframe(self, df, table="vote_record"):
-        self.cursor.execute("BEGIN TRANSACTION")
-        for index, row in df.iterrows():
-            self.insert_line(row, table)
-        self.cursor.execute("COMMIT")
+        for chunk in range(0, len(df), 50000):
+            self.cursor.execute("BEGIN TRANSACTION")
+            for index, row in df.iloc[chunk:chunk+50000,:].iterrows():
+                self.insert_line(row, table)
+            self.cursor.execute("COMMIT")
         logging.info(f"Insert into {table} successfully.")
 
     def drop_duplicates(self, table="vote_record"):
@@ -47,28 +48,31 @@ class NpxVote:
         '''
         logging.info("Duplicates dropped.")
         self.cursor.execute(sql_query)
+        self.conn.commit()
 
     def delete_fund_family(self, fund_family):
         sql_query = f'''
         DELETE FROM vote_record WHERE parent_fund_company='{fund_family}'
         '''
-        logging.info(f"{fund_family} deleted.")
         self.cursor.execute(sql_query)
+        self.conn.commit()
+        logging.info(f"{fund_family} deleted.")
 
     def clear(self, table="vote_record"):
         self.cursor.execute('''DELETE * FROM table''')
+        self.conn.commit()
 
     def close(self):
         self.conn.close()
 
 
 if __name__ == "__main__":
-    conn = sqlite3.connect("npx_vote.db")
+    conn = sqlite3.connect("npx_vote_2018.db")
 
     c = conn.cursor()
 
     # Create table
     c.execute('''CREATE TABLE vote_record
-                (cusip text, company_name text, ticker text, fund_company text, parent_fund_company text,
+                (cusip text, company_name text, ticker text, fund_name text, fund_company text, parent_fund_company text,
                 meeting_date text, meeting_type text, proposal text,
-                sponsor text, vote text)''')
+                sponsor text, vote text, link text)''')

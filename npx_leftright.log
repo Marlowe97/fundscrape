@@ -1,0 +1,150 @@
+2020-05-29 22:45:08,222 - INFO - Start to download american funds.
+2020-05-29 22:45:08,513 - INFO - There are 28 funds in american funds.
+2020-05-29 22:45:11,136 - WARNING - Found more than 1 funds after searching BOND FUND OF AMERICA
+2020-05-29 22:45:14,738 - WARNING - Found more than 1 funds after searching INTERNATIONAL GROWTH & INCOME FUND
+2020-05-29 22:45:14,741 - INFO - Obtain 33 funds after searching.
+2020-05-29 22:45:14,757 - INFO - american funds downloading completed.
+2020-05-29 22:45:14,764 - INFO - Start to parse 0000051931-18-000813.txt.
+2020-05-29 22:45:15,549 - INFO - There are 6 tables in this file.
+2020-05-29 22:45:21,290 - INFO - Start to parse 0000051931-18-000812.txt.
+2020-05-29 22:45:22,172 - INFO - There are 6 tables in this file.
+2020-05-29 22:45:29,020 - INFO - Start to parse 0000051931-18-000820.txt.
+2020-05-29 22:45:29,090 - INFO - There are 6 tables in this file.
+2020-05-29 22:45:29,635 - INFO - Start to parse 0000051931-18-000821.txt.
+2020-05-29 22:45:29,864 - INFO - There are 6 tables in this file.
+2020-05-29 22:45:30,667 - INFO - Start to parse 0000051931-18-000824.txt.
+2020-05-29 22:45:31,715 - INFO - There are 6 tables in this file.
+2020-05-29 22:45:39,968 - INFO - Start to parse 0000051931-18-000825.txt.
+2020-05-29 22:45:41,011 - INFO - There are 6 tables in this file.
+2020-05-29 22:45:48,257 - INFO - Start to parse 0000051931-18-000805.txt.
+2020-05-29 22:45:58,698 - INFO - There are 20 tables in this file.
+2020-05-29 22:47:15,032 - INFO - Start to parse 0000051931-18-000807.txt.
+2020-05-29 22:47:15,050 - INFO - There are 6 tables in this file.
+2020-05-29 22:47:15,050 - INFO - Start to parse 0000051931-18-000808.txt.
+2020-05-29 22:47:15,058 - INFO - There are 6 tables in this file.
+2020-05-29 22:47:15,059 - INFO - Start to parse 0000051931-18-000809.txt.
+2020-05-29 22:47:15,076 - INFO - There are 6 tables in this file.
+2020-05-29 22:47:15,077 - INFO - Start to parse 0000051931-18-000811.txt.
+2020-05-29 22:47:15,113 - INFO - There are 6 tables in this file.
+2020-05-29 22:47:15,130 - INFO - Start to parse 0000051931-18-000814.txt.
+2020-05-29 22:47:16,022 - INFO - There are 6 tables in this file.
+2020-05-29 22:47:22,375 - INFO - Start to parse 0000051931-18-000815.txt.
+2020-05-29 22:47:22,385 - INFO - There are 6 tables in this file.
+2020-05-29 22:47:22,387 - INFO - Start to parse 0000051931-18-000828.txt.
+2020-05-29 22:47:22,391 - INFO - There are 5 tables in this file.
+2020-05-29 22:47:22,391 - INFO - Start to parse 0000051931-18-000834.txt.
+2020-05-29 22:47:22,395 - INFO - There are 5 tables in this file.
+2020-05-29 22:47:22,395 - INFO - Start to parse 0000051931-18-000841.txt.
+2020-05-29 22:47:22,400 - INFO - There are 5 tables in this file.
+2020-05-29 22:47:22,400 - INFO - Start to parse 0000051931-18-000843.txt.
+2020-05-29 22:47:22,403 - INFO - There are 5 tables in this file.
+2020-05-29 22:47:22,408 - INFO - Start to parse 0000051931-18-000817.txt.
+2020-05-29 22:47:23,760 - INFO - There are 6 tables in this file.
+2020-05-29 22:47:28,235 - INFO - Start to parse 0000051931-18-000818.txt.
+2020-05-29 22:47:30,509 - INFO - There are 9 tables in this file.
+2020-05-29 22:47:46,130 - INFO - Start to parse 0000051931-18-000819.txt.
+2020-05-29 22:47:47,709 - INFO - There are 6 tables in this file.
+2020-05-29 22:47:58,814 - INFO - Start to parse 0000051931-18-000846.txt.
+2020-05-29 22:47:58,823 - INFO - There are 6 tables in this file.
+2020-05-29 22:47:58,848 - INFO - Start to parse 0000051931-18-000847.txt.
+2020-05-29 22:48:01,548 - INFO - There are 6 tables in this file.
+2020-05-29 22:48:18,580 - INFO - Start to parse 0000051931-18-000823.txt.
+2020-05-29 22:48:21,022 - INFO - There are 6 tables in this file.
+2020-05-29 22:48:36,412 - INFO - Start to parse 0000051931-18-000829.txt.
+2020-05-29 22:48:37,491 - INFO - There are 6 tables in this file.
+2020-05-29 22:48:44,666 - INFO - Start to parse 0000051931-18-000836.txt.
+2020-05-29 22:48:45,651 - INFO - There are 6 tables in this file.
+2020-05-29 22:48:52,083 - INFO - Start to parse 0000051931-18-000837.txt.
+2020-05-29 22:48:53,686 - INFO - There are 6 tables in this file.
+2020-05-29 22:49:05,435 - INFO - Start to parse 0000051931-18-000838.txt.
+2020-05-29 22:49:07,693 - INFO - There are 6 tables in this file.
+2020-05-29 22:49:23,806 - INFO - Start to parse 0000051931-18-000840.txt.
+2020-05-29 22:49:27,442 - INFO - There are 6 tables in this file.
+2020-05-29 22:49:52,570 - INFO - Start to parse 0000051931-18-000822.txt.
+2020-05-29 22:49:53,812 - INFO - There are 6 tables in this file.
+2020-05-29 22:50:01,173 - INFO - Start to parse 0000051931-18-000826.txt.
+2020-05-29 22:50:02,780 - INFO - There are 6 tables in this file.
+2020-05-29 22:50:13,474 - INFO - Start to parse 0000051931-18-000831.txt.
+2020-05-29 22:50:14,768 - INFO - There are 6 tables in this file.
+2020-05-29 22:50:23,497 - INFO - Start to parse 0000051931-18-000832.txt.
+2020-05-29 22:50:24,898 - INFO - There are 6 tables in this file.
+2020-05-29 22:50:34,851 - INFO - Start to parse 0000728889-18-001365.txt.
+2020-05-29 22:50:35,024 - INFO - There are 74 tables in this file.
+2020-05-29 22:50:38,529 - INFO - Results shape (100368, 23)
+2020-05-29 22:50:38,921 - INFO - Started to insert into database.
+2020-05-29 22:50:44,145 - INFO - american funds deleted.
+2020-05-29 22:50:55,571 - INFO - Insert into vote_record successfully.
+2020-05-29 22:50:55,577 - INFO - Start to download putnam.
+2020-05-29 22:50:55,897 - INFO - There are 19 funds in putnam.
+2020-05-29 22:50:59,778 - INFO - Obtain 19 funds after searching.
+2020-05-29 22:50:59,786 - INFO - putnam downloading completed.
+2020-05-29 22:50:59,789 - INFO - Start to parse 0000928816-18-001739.txt.
+2020-05-29 22:51:00,382 - INFO - There are 8 tables in this file.
+2020-05-29 22:51:07,077 - INFO - Start to parse 0000928816-18-001656.txt.
+2020-05-29 22:51:12,438 - INFO - There are 10 tables in this file.
+2020-05-29 22:52:14,308 - INFO - Start to parse 0000928816-18-001711.txt.
+2020-05-29 22:52:14,356 - INFO - There are 8 tables in this file.
+2020-05-29 22:52:14,374 - INFO - Start to parse 0000928816-18-001738.txt.
+2020-05-29 22:52:15,031 - INFO - There are 8 tables in this file.
+2020-05-29 22:52:19,131 - INFO - Start to parse 0000928816-18-001671.txt.
+2020-05-29 22:52:19,398 - INFO - There are 8 tables in this file.
+2020-05-29 22:52:22,580 - INFO - Start to parse 0000928816-18-001654.txt.
+2020-05-29 22:52:29,533 - INFO - There are 40 tables in this file.
+2020-05-29 22:53:42,720 - INFO - Start to parse 0000928816-18-001672.txt.
+2020-05-29 22:53:43,020 - INFO - There are 8 tables in this file.
+2020-05-29 22:53:47,257 - INFO - Start to parse 0000928816-18-001677.txt.
+2020-05-29 22:53:47,410 - INFO - There are 8 tables in this file.
+2020-05-29 22:53:49,424 - INFO - Start to parse 0000928816-18-001673.txt.
+2020-05-29 22:53:49,551 - INFO - There are 8 tables in this file.
+2020-05-29 22:53:51,020 - INFO - Start to parse 0000928816-18-001678.txt.
+2020-05-29 22:53:51,180 - INFO - There are 8 tables in this file.
+2020-05-29 22:53:53,131 - INFO - Start to parse 0000928816-18-001714.txt.
+2020-05-29 22:53:53,188 - INFO - There are 8 tables in this file.
+2020-05-29 22:53:53,698 - INFO - Start to parse 0000928816-18-001674.txt.
+2020-05-29 22:53:54,383 - INFO - There are 8 tables in this file.
+2020-05-29 22:53:58,019 - INFO - Start to parse 0000928816-18-001658.txt.
+2020-05-29 22:54:00,668 - INFO - There are 18 tables in this file.
+2020-05-29 22:54:30,154 - INFO - Start to parse 0000928816-18-001675.txt.
+2020-05-29 22:54:30,585 - INFO - There are 8 tables in this file.
+2020-05-29 22:54:35,886 - INFO - Start to parse 0000928816-18-001720.txt.
+2020-05-29 22:54:35,911 - INFO - There are 8 tables in this file.
+2020-05-29 22:54:35,918 - INFO - Start to parse 0000928816-18-001731.txt.
+2020-05-29 22:54:35,941 - INFO - There are 8 tables in this file.
+2020-05-29 22:54:35,948 - INFO - Start to parse 0000928816-18-001679.txt.
+2020-05-29 22:54:35,974 - INFO - There are 17 tables in this file.
+2020-05-29 22:54:35,979 - INFO - Start to parse 0000928816-18-001676.txt.
+2020-05-29 22:54:36,415 - INFO - There are 8 tables in this file.
+2020-05-29 22:54:39,181 - INFO - Start to parse 0000928816-18-001652.txt.
+2020-05-29 22:54:46,845 - INFO - There are 31 tables in this file.
+2020-05-29 22:56:10,523 - INFO - Results shape (93633, 16)
+2020-05-29 22:56:10,666 - INFO - Started to insert into database.
+2020-05-29 22:56:15,650 - INFO - putnam deleted.
+2020-05-29 22:56:25,704 - INFO - Insert into vote_record successfully.
+2020-05-29 22:56:25,711 - INFO - Start to download neuberger berman llc.
+2020-05-29 22:56:26,015 - INFO - There are 10 funds in neuberger berman llc.
+2020-05-29 22:56:28,732 - INFO - Obtain 10 funds after searching.
+2020-05-29 22:56:28,737 - INFO - neuberger berman llc downloading completed.
+2020-05-29 22:56:28,913 - INFO - Start to parse 0000898432-18-000971.txt.
+2020-05-29 22:56:32,734 - INFO - There are 2 tables in this file.
+2020-05-29 22:56:47,563 - INFO - Start to parse 0000898432-18-000966.txt.
+2020-05-29 22:56:56,604 - INFO - There are 2 tables in this file.
+2020-05-29 22:57:31,566 - INFO - Start to parse 0000898432-18-000967.txt.
+2020-05-29 22:57:31,569 - INFO - There are 0 tables in this file.
+2020-05-29 22:57:32,187 - INFO - Start to parse 0000898432-18-000970.txt.
+2020-05-29 22:57:45,096 - INFO - There are 1 tables in this file.
+2020-05-29 22:58:31,122 - INFO - Start to parse 0000898432-18-000969.txt.
+2020-05-29 22:58:31,124 - INFO - There are 0 tables in this file.
+2020-05-29 22:58:31,132 - INFO - Start to parse 0000898432-18-000973.txt.
+2020-05-29 22:58:31,140 - INFO - There are 0 tables in this file.
+2020-05-29 22:58:31,147 - INFO - Start to parse 0000898432-18-000974.txt.
+2020-05-29 22:58:31,150 - INFO - There are 0 tables in this file.
+2020-05-29 22:58:31,160 - INFO - Start to parse 0000898432-18-000968.txt.
+2020-05-29 22:58:31,218 - INFO - There are 1 tables in this file.
+2020-05-29 22:58:31,492 - INFO - Start to parse 0000898432-18-000965.txt.
+2020-05-29 22:58:31,495 - INFO - There are 0 tables in this file.
+2020-05-29 22:58:31,513 - INFO - Start to parse 0000898432-18-000972.txt.
+2020-05-29 22:58:31,702 - INFO - There are 1 tables in this file.
+2020-05-29 22:58:33,250 - INFO - Results shape (29802, 16)
+2020-05-29 22:58:33,325 - INFO - Started to insert into database.
+2020-05-29 22:58:38,296 - INFO - neuberger berman llc deleted.
+2020-05-29 22:58:41,688 - INFO - Insert into vote_record successfully.

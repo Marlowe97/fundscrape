@@ -4,7 +4,7 @@ Version:        0.1
 Author:         Marlowe Zhong
 Creation Date:  Friday, May 8th 2020, 6:52:12 pm
 -----
-Last Modified:  Saturday, May 9th 2020, 7:25:52 pm
+Last Modified:  Friday, May 29th 2020, 4:41:54 pm
 Modified By:    Marlowe Zhong (marlowezhong@gmail.com)
 """
 
@@ -41,7 +41,22 @@ def bold(tr):
             return True
     return False
 
-def parse(link_table, text_root='text/'):
+def title(el):
+    if 'style' in el.attrs:
+        if ("font-size:11pt" in el['style'].lower()) and ("font-weight:bold" in el['style'].lower()):
+            return True
+    return False
+
+def get_fund1(table):
+    return table.find_previous('p',align="center")
+
+def get_fund2(table):
+    return table.find_previous('p',style="TEXT-ALIGN: center")
+
+def get_fund3(table):
+    return table.find_previous(title)
+
+def parse(link_table, text_root='text/', get_fund=get_fund1):
     dfs = []
     for n in range(len(link_table)):
         file_name = link_table.loc[n, 'file_name']
@@ -63,11 +78,16 @@ def parse(link_table, text_root='text/'):
         logging.info(f"There are {len(tables)} vote records in this file.")
         if (len(tables) == 0) and normal_size(text_root + file_name):
             logging.warning(f"Something wrong with {file_name}")
-        for table in tables:
+        for table in tqdm(tables):
             rows = [row for row in table.find_all(['tr', 'td'], recursive=False) if process_bs(row)]
             if len(rows) < 4:
                 continue
-            # fund = table.find_previous('p',align="center").get_text()
+
+            fund = get_fund(table)
+            if fund:
+                fund = fund.get_text()
+            else:
+                logging.warning(table.get_text())
 
             if len(rows[0].find_all('td')) > 3:
                 if bold(rows[0]):
@@ -102,9 +122,10 @@ def parse(link_table, text_root='text/'):
                 continue
             for key, value in head.items():
                 df[key] = value
-            # df['fund'] = fund
+            df['fund_name'] = fund
             df['company'] = company
             df['fund_company'] = link_table.loc[n,'fund_company']
+            df['link'] = link_table.loc[n,'file_link']
             dfs.append(df)
 
     results = pd.concat(dfs,sort=False, ignore_index=True)
